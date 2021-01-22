@@ -1,3 +1,0 @@
-/home/reddyn/Test/NuceoF0_CMk/cmake-build/CMakeFiles/rebuild_cache.dir
-/home/reddyn/Test/NuceoF0_CMk/cmake-build/CMakeFiles/nucleo-f091RC.out.dir
-/home/reddyn/Test/NuceoF0_CMk/cmake-build/CMakeFiles/edit_cache.dir
