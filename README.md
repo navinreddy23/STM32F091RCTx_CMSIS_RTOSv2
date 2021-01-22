@@ -17,3 +17,6 @@ Note: Generate from the root directory (This will include the source files)
 
 See the folder ScreenShots as a reference for adding a Debugger. This projected was tested with ST-LINKv2, arm-none-eabi-gdb, and openOCD.
 
+
+Application Source: https://deepbluembedded.com/stm32-pwm-example-timer-pwm-mode-tutorial/
+
