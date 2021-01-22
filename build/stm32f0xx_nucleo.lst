@@ -1,0 +1,906 @@
+ARM GAS  /tmp/ccoZzLvh.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 0
+  10              		.eabi_attribute 18, 4
+  11              		.file	"stm32f0xx_nucleo.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.BSP_GetVersion,"ax",%progbits
+  16              		.align	1
+  17              		.global	BSP_GetVersion
+  18              		.syntax unified
+  19              		.code	16
+  20              		.thumb_func
+  21              		.fpu softvfp
+  23              	BSP_GetVersion:
+  24              	.LFB40:
+  25              		.file 1 "BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c"
+   1:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+   2:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   ******************************************************************************
+   3:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @file    stm32f0xx_nucleo.c
+   4:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @author  MCD Application Team
+   5:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief   This file provides set of firmware functions to manage:
+   6:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *          - LEDs and push-button available on STM32F0XX-Nucleo Kit 
+   7:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *            from STMicroelectronics
+   8:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *          - LCD, joystick and microSD available on Adafruit 1.8" TFT LCD 
+   9:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *            shield (reference ID 802)
+  10:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   ******************************************************************************
+  11:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @attention
+  12:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *
+  13:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * <h2><center>&copy; COPYRIGHT(c) 2016 STMicroelectronics</center></h2>
+  14:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *
+  15:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * Redistribution and use in source and binary forms, with or without modification,
+  16:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * are permitted provided that the following conditions are met:
+  17:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   1. Redistributions of source code must retain the above copyright notice,
+  18:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *      this list of conditions and the following disclaimer.
+  19:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   2. Redistributions in binary form must reproduce the above copyright notice,
+  20:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *      this list of conditions and the following disclaimer in the documentation
+  21:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *      and/or other materials provided with the distribution.
+  22:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   3. Neither the name of STMicroelectronics nor the names of its contributors
+  23:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *      may be used to endorse or promote products derived from this software
+  24:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *      without specific prior written permission.
+  25:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *
+  26:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  27:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  28:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  29:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  30:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  31:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  32:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  33:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ARM GAS  /tmp/ccoZzLvh.s 			page 2
+
+
+  34:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  35:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  36:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *
+  37:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   ******************************************************************************
+  38:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+  39:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   
+  40:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /* Includes ------------------------------------------------------------------*/
+  41:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #include "stm32f0xx_nucleo.h"
+  42:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  43:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @addtogroup BSP
+  44:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+  45:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+  46:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  47:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @addtogroup STM32F0XX_NUCLEO
+  48:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+  49:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */   
+  50:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  51:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @defgroup STM32F0XX_NUCLEO_Private_Defines Private Defines
+  52:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+  53:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+  54:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  55:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+  56:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief STM32F0XX NUCLEO BSP Driver version number V1.1.6
+  57:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+  58:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define __STM32F0XX_NUCLEO_BSP_VERSION_MAIN   (0x01) /*!< [31:24] main version */
+  59:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define __STM32F0XX_NUCLEO_BSP_VERSION_SUB1   (0x01) /*!< [23:16] sub1 version */
+  60:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define __STM32F0XX_NUCLEO_BSP_VERSION_SUB2   (0x06) /*!< [15:8]  sub2 version */
+  61:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define __STM32F0XX_NUCLEO_BSP_VERSION_RC     (0x00) /*!< [7:0]  release candidate */ 
+  62:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define __STM32F0XX_NUCLEO_BSP_VERSION        ((__STM32F0XX_NUCLEO_BSP_VERSION_MAIN << 24)\
+  63:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****                                               |(__STM32F0XX_NUCLEO_BSP_VERSION_SUB1 << 16)\
+  64:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****                                               |(__STM32F0XX_NUCLEO_BSP_VERSION_SUB2 << 8 )\
+  65:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****                                               |(__STM32F0XX_NUCLEO_BSP_VERSION_RC))
+  66:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  67:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+  68:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief LINK SD Card
+  69:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+  70:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define SD_DUMMY_BYTE            0xFF    
+  71:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #define SD_NO_RESPONSE_EXPECTED  0x80
+  72:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  73:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+  74:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @}
+  75:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+  76:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  77:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @defgroup STM32F0XX_NUCLEO_Private_Variables Private Variables
+  78:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+  79:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+  80:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** GPIO_TypeDef*  LED_PORT[LEDn] = {LED2_GPIO_PORT};
+  81:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** const uint16_t LED_PIN[LEDn] = {LED2_PIN};
+  82:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  83:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** GPIO_TypeDef*  BUTTON_PORT[BUTTONn] = {USER_BUTTON_GPIO_PORT};
+  84:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** const uint16_t BUTTON_PIN[BUTTONn] = {USER_BUTTON_PIN};
+  85:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** const uint8_t  BUTTON_IRQn[BUTTONn] = {USER_BUTTON_EXTI_IRQn };
+  86:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  87:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+  88:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****  * @brief BUS variables
+  89:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****  */
+  90:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ARM GAS  /tmp/ccoZzLvh.s 			page 3
+
+
+  91:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #ifdef HAL_SPI_MODULE_ENABLED
+  92:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** uint32_t SpixTimeout = NUCLEO_SPIx_TIMEOUT_MAX; /*<! Value of Timeout when SPI communication fails 
+  93:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static SPI_HandleTypeDef hnucleo_Spi;
+  94:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #endif /* HAL_SPI_MODULE_ENABLED */
+  95:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+  96:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #ifdef HAL_ADC_MODULE_ENABLED
+  97:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static ADC_HandleTypeDef hnucleo_Adc;
+  98:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /* ADC channel configuration structure declaration */
+  99:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static ADC_ChannelConfTypeDef sConfig;
+ 100:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #endif /* HAL_ADC_MODULE_ENABLED */
+ 101:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 102:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @}
+ 103:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+ 104:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 105:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @defgroup STM32F0XX_NUCLEO_Private_Functions Private Functions
+ 106:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+ 107:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 108:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #ifdef HAL_SPI_MODULE_ENABLED
+ 109:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_Init(void);
+ 110:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_Write(uint8_t Value);
+ 111:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_WriteData(uint8_t *DataIn, uint16_t DataLength);
+ 112:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_WriteReadData(const uint8_t *DataIn, uint8_t *DataOut, uint16_t DataLegnth);
+ 113:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_FlushFifo(void);
+ 114:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_Error(void);
+ 115:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void       SPIx_MspInit(void);
+ 116:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 117:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /* SD IO functions */
+ 118:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              SD_IO_Init(void);
+ 119:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              SD_IO_CSState(uint8_t state);
+ 120:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              SD_IO_WriteReadData(const uint8_t *DataIn, uint8_t *DataOut, uint16_t DataLength)
+ 121:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              SD_IO_ReadData(uint8_t *DataOut, uint16_t DataLength);
+ 122:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              SD_IO_WriteData(const uint8_t *Data, uint16_t DataLength);
+ 123:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** uint8_t           SD_IO_WriteByte(uint8_t Data);
+ 124:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** uint8_t           SD_IO_ReadByte(void);
+ 125:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 126:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /* LCD IO functions */
+ 127:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              LCD_IO_Init(void);
+ 128:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              LCD_IO_WriteData(uint8_t Data);
+ 129:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              LCD_IO_WriteMultipleData(uint8_t *pData, uint32_t Size);
+ 130:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              LCD_IO_WriteReg(uint8_t LCDReg);
+ 131:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void              LCD_Delay(uint32_t delay);
+ 132:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #endif /* HAL_SPI_MODULE_ENABLED */
+ 133:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 134:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #ifdef HAL_ADC_MODULE_ENABLED
+ 135:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static HAL_StatusTypeDef  ADCx_Init(void);
+ 136:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void               ADCx_DeInit(void);
+ 137:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void               ADCx_MspInit(ADC_HandleTypeDef *hadc);
+ 138:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** static void               ADCx_MspDeInit(ADC_HandleTypeDef *hadc);
+ 139:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** #endif /* HAL_ADC_MODULE_ENABLED */
+ 140:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 141:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @}
+ 142:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+ 143:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 144:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @defgroup STM32F0XX_NUCLEO_Exported_Functions Exported Functions
+ 145:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+ 146:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+ 147:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ARM GAS  /tmp/ccoZzLvh.s 			page 4
+
+
+ 148:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 149:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  This method returns the STM32F0XX NUCLEO BSP Driver revision
+ 150:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval version : 0xXYZR (8bits for each decimal, R for RC)
+ 151:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 152:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** uint32_t BSP_GetVersion(void)
+ 153:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+  26              		.loc 1 153 0
+  27              		.cfi_startproc
+  28              		@ args = 0, pretend = 0, frame = 0
+  29              		@ frame_needed = 0, uses_anonymous_args = 0
+  30              		@ link register save eliminated.
+ 154:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   return __STM32F0XX_NUCLEO_BSP_VERSION;
+ 155:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+  31              		.loc 1 155 0
+  32 0000 0048     		ldr	r0, .L2
+  33              		@ sp needed
+  34 0002 7047     		bx	lr
+  35              	.L3:
+  36              		.align	2
+  37              	.L2:
+  38 0004 00060101 		.word	16844288
+  39              		.cfi_endproc
+  40              	.LFE40:
+  42              		.section	.text.BSP_LED_Init,"ax",%progbits
+  43              		.align	1
+  44              		.global	BSP_LED_Init
+  45              		.syntax unified
+  46              		.code	16
+  47              		.thumb_func
+  48              		.fpu softvfp
+  50              	BSP_LED_Init:
+  51              	.LFB41:
+ 156:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 157:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @addtogroup STM32F0XX_NUCLEO_LED_Functions
+ 158:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+ 159:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+ 160:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 161:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 162:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Configures LED GPIO.
+ 163:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Led Led to be configured. 
+ 164:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *         This parameter can be one of the following values:
+ 165:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @arg LED2
+ 166:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 167:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 168:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_LED_Init(Led_TypeDef Led)
+ 169:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+  52              		.loc 1 169 0
+  53              		.cfi_startproc
+  54              		@ args = 0, pretend = 0, frame = 24
+  55              		@ frame_needed = 0, uses_anonymous_args = 0
+  56              	.LVL0:
+  57 0000 10B5     		push	{r4, lr}
+  58              	.LCFI0:
+  59              		.cfi_def_cfa_offset 8
+  60              		.cfi_offset 4, -8
+  61              		.cfi_offset 14, -4
+  62 0002 86B0     		sub	sp, sp, #24
+ARM GAS  /tmp/ccoZzLvh.s 			page 5
+
+
+  63              	.LCFI1:
+  64              		.cfi_def_cfa_offset 32
+ 170:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   GPIO_InitTypeDef  gpioinitstruct;
+ 171:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   
+ 172:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   /* Enable the GPIO_LED Clock */
+ 173:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   LEDx_GPIO_CLK_ENABLE(Led);
+  65              		.loc 1 173 0
+  66 0004 0028     		cmp	r0, #0
+  67 0006 09D1     		bne	.L5
+  68              	.LBB2:
+  69              		.loc 1 173 0 is_stmt 0 discriminator 1
+  70 0008 0C4A     		ldr	r2, .L6
+  71 000a 5169     		ldr	r1, [r2, #20]
+  72 000c 8024     		movs	r4, #128
+  73 000e A402     		lsls	r4, r4, #10
+  74 0010 2143     		orrs	r1, r4
+  75 0012 5161     		str	r1, [r2, #20]
+  76 0014 5369     		ldr	r3, [r2, #20]
+  77 0016 2340     		ands	r3, r4
+  78 0018 0093     		str	r3, [sp]
+  79 001a 009B     		ldr	r3, [sp]
+  80              	.L5:
+  81              	.LBE2:
+ 174:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 175:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   /* Configure the GPIO_LED pin */
+ 176:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Pin = LED_PIN[Led];
+  82              		.loc 1 176 0 is_stmt 1
+  83 001c 2023     		movs	r3, #32
+  84 001e 0193     		str	r3, [sp, #4]
+ 177:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Mode = GPIO_MODE_OUTPUT_PP;
+  85              		.loc 1 177 0
+  86 0020 1F3B     		subs	r3, r3, #31
+  87 0022 0293     		str	r3, [sp, #8]
+ 178:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Pull = GPIO_NOPULL;
+  88              		.loc 1 178 0
+  89 0024 0023     		movs	r3, #0
+  90 0026 0393     		str	r3, [sp, #12]
+ 179:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Speed = GPIO_SPEED_FREQ_HIGH;
+  91              		.loc 1 179 0
+  92 0028 0333     		adds	r3, r3, #3
+  93 002a 0493     		str	r3, [sp, #16]
+ 180:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   
+ 181:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_Init(LED_PORT[Led], &gpioinitstruct);
+  94              		.loc 1 181 0
+  95 002c 8000     		lsls	r0, r0, #2
+  96              	.LVL1:
+  97 002e 044B     		ldr	r3, .L6+4
+  98 0030 C058     		ldr	r0, [r0, r3]
+  99 0032 01A9     		add	r1, sp, #4
+ 100 0034 FFF7FEFF 		bl	HAL_GPIO_Init
+ 101              	.LVL2:
+ 182:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 102              		.loc 1 182 0
+ 103 0038 06B0     		add	sp, sp, #24
+ 104              		@ sp needed
+ 105 003a 10BD     		pop	{r4, pc}
+ 106              	.L7:
+ARM GAS  /tmp/ccoZzLvh.s 			page 6
+
+
+ 107              		.align	2
+ 108              	.L6:
+ 109 003c 00100240 		.word	1073876992
+ 110 0040 00000000 		.word	.LANCHOR0
+ 111              		.cfi_endproc
+ 112              	.LFE41:
+ 114              		.section	.text.BSP_LED_DeInit,"ax",%progbits
+ 115              		.align	1
+ 116              		.global	BSP_LED_DeInit
+ 117              		.syntax unified
+ 118              		.code	16
+ 119              		.thumb_func
+ 120              		.fpu softvfp
+ 122              	BSP_LED_DeInit:
+ 123              	.LFB42:
+ 183:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 184:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 185:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  DeInit LEDs.
+ 186:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Led LED to be de-init. 
+ 187:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter can be one of the following values:
+ 188:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *     @arg  LED2
+ 189:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @note Led DeInit does not disable the GPIO clock nor disable the Mfx 
+ 190:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 191:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 192:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_LED_DeInit(Led_TypeDef Led)
+ 193:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 124              		.loc 1 193 0
+ 125              		.cfi_startproc
+ 126              		@ args = 0, pretend = 0, frame = 0
+ 127              		@ frame_needed = 0, uses_anonymous_args = 0
+ 128              	.LVL3:
+ 129 0000 70B5     		push	{r4, r5, r6, lr}
+ 130              	.LCFI2:
+ 131              		.cfi_def_cfa_offset 16
+ 132              		.cfi_offset 4, -16
+ 133              		.cfi_offset 5, -12
+ 134              		.cfi_offset 6, -8
+ 135              		.cfi_offset 14, -4
+ 194:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   GPIO_InitTypeDef  gpio_init_structure;
+ 195:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 196:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   /* Turn off LED */
+ 197:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_WritePin(LED_PORT[Led], LED_PIN[Led], GPIO_PIN_RESET);
+ 136              		.loc 1 197 0
+ 137 0002 064D     		ldr	r5, .L9
+ 138 0004 8400     		lsls	r4, r0, #2
+ 139 0006 0022     		movs	r2, #0
+ 140 0008 2021     		movs	r1, #32
+ 141 000a 6059     		ldr	r0, [r4, r5]
+ 142              	.LVL4:
+ 143 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 144              	.LVL5:
+ 198:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   /* DeInit the GPIO_LED pin */
+ 199:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpio_init_structure.Pin = LED_PIN[Led];
+ 200:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_DeInit(LED_PORT[Led], gpio_init_structure.Pin);
+ 145              		.loc 1 200 0
+ 146 0010 6059     		ldr	r0, [r4, r5]
+ 147 0012 2021     		movs	r1, #32
+ARM GAS  /tmp/ccoZzLvh.s 			page 7
+
+
+ 148 0014 FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 149              	.LVL6:
+ 201:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 150              		.loc 1 201 0
+ 151              		@ sp needed
+ 152 0018 70BD     		pop	{r4, r5, r6, pc}
+ 153              	.L10:
+ 154 001a C046     		.align	2
+ 155              	.L9:
+ 156 001c 00000000 		.word	.LANCHOR0
+ 157              		.cfi_endproc
+ 158              	.LFE42:
+ 160              		.section	.text.BSP_LED_On,"ax",%progbits
+ 161              		.align	1
+ 162              		.global	BSP_LED_On
+ 163              		.syntax unified
+ 164              		.code	16
+ 165              		.thumb_func
+ 166              		.fpu softvfp
+ 168              	BSP_LED_On:
+ 169              	.LFB43:
+ 202:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 203:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 204:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Turns selected LED On.
+ 205:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Led Specifies the Led to be set on. 
+ 206:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter can be one of following parameters:
+ 207:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *     @arg LED2
+ 208:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 209:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 210:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_LED_On(Led_TypeDef Led)
+ 211:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 170              		.loc 1 211 0
+ 171              		.cfi_startproc
+ 172              		@ args = 0, pretend = 0, frame = 0
+ 173              		@ frame_needed = 0, uses_anonymous_args = 0
+ 174              	.LVL7:
+ 175 0000 10B5     		push	{r4, lr}
+ 176              	.LCFI3:
+ 177              		.cfi_def_cfa_offset 8
+ 178              		.cfi_offset 4, -8
+ 179              		.cfi_offset 14, -4
+ 212:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_WritePin(LED_PORT[Led], LED_PIN[Led], GPIO_PIN_SET); 
+ 180              		.loc 1 212 0
+ 181 0002 8000     		lsls	r0, r0, #2
+ 182              	.LVL8:
+ 183 0004 034B     		ldr	r3, .L12
+ 184 0006 C058     		ldr	r0, [r0, r3]
+ 185 0008 0122     		movs	r2, #1
+ 186 000a 2021     		movs	r1, #32
+ 187 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 188              	.LVL9:
+ 213:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 189              		.loc 1 213 0
+ 190              		@ sp needed
+ 191 0010 10BD     		pop	{r4, pc}
+ 192              	.L13:
+ 193 0012 C046     		.align	2
+ARM GAS  /tmp/ccoZzLvh.s 			page 8
+
+
+ 194              	.L12:
+ 195 0014 00000000 		.word	.LANCHOR0
+ 196              		.cfi_endproc
+ 197              	.LFE43:
+ 199              		.section	.text.BSP_LED_Off,"ax",%progbits
+ 200              		.align	1
+ 201              		.global	BSP_LED_Off
+ 202              		.syntax unified
+ 203              		.code	16
+ 204              		.thumb_func
+ 205              		.fpu softvfp
+ 207              	BSP_LED_Off:
+ 208              	.LFB44:
+ 214:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 215:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 216:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Turns selected LED Off.
+ 217:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Led Specifies the Led to be set off. 
+ 218:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter can be one of following parameters:
+ 219:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *     @arg LED2
+ 220:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 221:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 222:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_LED_Off(Led_TypeDef Led)
+ 223:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 209              		.loc 1 223 0
+ 210              		.cfi_startproc
+ 211              		@ args = 0, pretend = 0, frame = 0
+ 212              		@ frame_needed = 0, uses_anonymous_args = 0
+ 213              	.LVL10:
+ 214 0000 10B5     		push	{r4, lr}
+ 215              	.LCFI4:
+ 216              		.cfi_def_cfa_offset 8
+ 217              		.cfi_offset 4, -8
+ 218              		.cfi_offset 14, -4
+ 224:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_WritePin(LED_PORT[Led], LED_PIN[Led], GPIO_PIN_RESET); 
+ 219              		.loc 1 224 0
+ 220 0002 8000     		lsls	r0, r0, #2
+ 221              	.LVL11:
+ 222 0004 034B     		ldr	r3, .L15
+ 223 0006 C058     		ldr	r0, [r0, r3]
+ 224 0008 0022     		movs	r2, #0
+ 225 000a 2021     		movs	r1, #32
+ 226 000c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 227              	.LVL12:
+ 225:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 228              		.loc 1 225 0
+ 229              		@ sp needed
+ 230 0010 10BD     		pop	{r4, pc}
+ 231              	.L16:
+ 232 0012 C046     		.align	2
+ 233              	.L15:
+ 234 0014 00000000 		.word	.LANCHOR0
+ 235              		.cfi_endproc
+ 236              	.LFE44:
+ 238              		.section	.text.BSP_LED_Toggle,"ax",%progbits
+ 239              		.align	1
+ 240              		.global	BSP_LED_Toggle
+ 241              		.syntax unified
+ARM GAS  /tmp/ccoZzLvh.s 			page 9
+
+
+ 242              		.code	16
+ 243              		.thumb_func
+ 244              		.fpu softvfp
+ 246              	BSP_LED_Toggle:
+ 247              	.LFB45:
+ 226:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 227:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 228:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Toggles the selected LED.
+ 229:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Led Specifies the Led to be toggled. 
+ 230:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter can be one of following parameters:
+ 231:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *     @arg LED2
+ 232:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 233:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 234:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_LED_Toggle(Led_TypeDef Led)
+ 235:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 248              		.loc 1 235 0
+ 249              		.cfi_startproc
+ 250              		@ args = 0, pretend = 0, frame = 0
+ 251              		@ frame_needed = 0, uses_anonymous_args = 0
+ 252              	.LVL13:
+ 253 0000 10B5     		push	{r4, lr}
+ 254              	.LCFI5:
+ 255              		.cfi_def_cfa_offset 8
+ 256              		.cfi_offset 4, -8
+ 257              		.cfi_offset 14, -4
+ 236:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_TogglePin(LED_PORT[Led], LED_PIN[Led]);
+ 258              		.loc 1 236 0
+ 259 0002 8000     		lsls	r0, r0, #2
+ 260              	.LVL14:
+ 261 0004 024B     		ldr	r3, .L18
+ 262 0006 C058     		ldr	r0, [r0, r3]
+ 263 0008 2021     		movs	r1, #32
+ 264 000a FFF7FEFF 		bl	HAL_GPIO_TogglePin
+ 265              	.LVL15:
+ 237:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 266              		.loc 1 237 0
+ 267              		@ sp needed
+ 268 000e 10BD     		pop	{r4, pc}
+ 269              	.L19:
+ 270              		.align	2
+ 271              	.L18:
+ 272 0010 00000000 		.word	.LANCHOR0
+ 273              		.cfi_endproc
+ 274              	.LFE45:
+ 276              		.section	.text.BSP_PB_Init,"ax",%progbits
+ 277              		.align	1
+ 278              		.global	BSP_PB_Init
+ 279              		.syntax unified
+ 280              		.code	16
+ 281              		.thumb_func
+ 282              		.fpu softvfp
+ 284              	BSP_PB_Init:
+ 285              	.LFB46:
+ 238:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 239:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 240:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @}
+ 241:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+ARM GAS  /tmp/ccoZzLvh.s 			page 10
+
+
+ 242:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 243:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /** @defgroup STM32F0XX_NUCLEO_BUTTON_Functions BUTTON Functions
+ 244:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @{
+ 245:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */ 
+ 246:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 247:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 248:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Configures Button GPIO and EXTI Line.
+ 249:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Button Specifies the Button to be configured.
+ 250:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter should be: BUTTON_USER
+ 251:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  ButtonMode Specifies Button mode.
+ 252:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter can be one of following parameters:   
+ 253:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *     @arg BUTTON_MODE_GPIO: Button will be used as simple IO
+ 254:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *     @arg BUTTON_MODE_EXTI: Button will be connected to EXTI line with interrupt
+ 255:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *                            generation capability  
+ 256:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 257:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 258:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_PB_Init(Button_TypeDef Button, ButtonMode_TypeDef ButtonMode)
+ 259:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 286              		.loc 1 259 0
+ 287              		.cfi_startproc
+ 288              		@ args = 0, pretend = 0, frame = 24
+ 289              		@ frame_needed = 0, uses_anonymous_args = 0
+ 290              	.LVL16:
+ 291 0000 30B5     		push	{r4, r5, lr}
+ 292              	.LCFI6:
+ 293              		.cfi_def_cfa_offset 12
+ 294              		.cfi_offset 4, -12
+ 295              		.cfi_offset 5, -8
+ 296              		.cfi_offset 14, -4
+ 297 0002 87B0     		sub	sp, sp, #28
+ 298              	.LCFI7:
+ 299              		.cfi_def_cfa_offset 40
+ 300 0004 0400     		movs	r4, r0
+ 301 0006 0D00     		movs	r5, r1
+ 260:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   GPIO_InitTypeDef gpioinitstruct;
+ 261:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 262:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   /* Enable the BUTTON Clock */
+ 263:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   BUTTONx_GPIO_CLK_ENABLE(Button);
+ 302              		.loc 1 263 0
+ 303 0008 0028     		cmp	r0, #0
+ 304 000a 09D1     		bne	.L21
+ 305              	.LBB3:
+ 306              		.loc 1 263 0 is_stmt 0 discriminator 1
+ 307 000c 184A     		ldr	r2, .L26
+ 308 000e 5169     		ldr	r1, [r2, #20]
+ 309              	.LVL17:
+ 310 0010 8020     		movs	r0, #128
+ 311              	.LVL18:
+ 312 0012 0003     		lsls	r0, r0, #12
+ 313 0014 0143     		orrs	r1, r0
+ 314 0016 5161     		str	r1, [r2, #20]
+ 315 0018 5369     		ldr	r3, [r2, #20]
+ 316 001a 0340     		ands	r3, r0
+ 317 001c 0093     		str	r3, [sp]
+ 318 001e 009B     		ldr	r3, [sp]
+ 319              	.L21:
+ 320              	.LBE3:
+ARM GAS  /tmp/ccoZzLvh.s 			page 11
+
+
+ 264:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 265:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Pin = BUTTON_PIN[Button];
+ 321              		.loc 1 265 0 is_stmt 1
+ 322 0020 8023     		movs	r3, #128
+ 323 0022 9B01     		lsls	r3, r3, #6
+ 324 0024 0193     		str	r3, [sp, #4]
+ 266:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Pull = GPIO_NOPULL;
+ 325              		.loc 1 266 0
+ 326 0026 0023     		movs	r3, #0
+ 327 0028 0393     		str	r3, [sp, #12]
+ 267:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpioinitstruct.Speed = GPIO_SPEED_FREQ_HIGH;
+ 328              		.loc 1 267 0
+ 329 002a 0333     		adds	r3, r3, #3
+ 330 002c 0493     		str	r3, [sp, #16]
+ 268:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 269:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   if(ButtonMode == BUTTON_MODE_GPIO)
+ 331              		.loc 1 269 0
+ 332 002e 002D     		cmp	r5, #0
+ 333 0030 03D0     		beq	.L24
+ 334              	.L22:
+ 270:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   {
+ 271:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     /* Configure Button pin as input */
+ 272:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     gpioinitstruct.Mode = GPIO_MODE_INPUT;
+ 273:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 274:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     HAL_GPIO_Init(BUTTON_PORT[Button], &gpioinitstruct);
+ 275:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   }
+ 276:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 277:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   if(ButtonMode == BUTTON_MODE_EXTI)
+ 335              		.loc 1 277 0
+ 336 0032 012D     		cmp	r5, #1
+ 337 0034 0AD0     		beq	.L25
+ 338              	.L20:
+ 278:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   {
+ 279:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     /* Configure Button pin as input with External interrupt */
+ 280:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     gpioinitstruct.Mode = GPIO_MODE_IT_FALLING;
+ 281:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 282:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     HAL_GPIO_Init(BUTTON_PORT[Button], &gpioinitstruct);
+ 283:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 284:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     /* Enable and set Button EXTI Interrupt to the lowest priority */
+ 285:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     HAL_NVIC_SetPriority((IRQn_Type)(BUTTON_IRQn[Button]), 0x03, 0x00);
+ 286:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     HAL_NVIC_EnableIRQ((IRQn_Type)(BUTTON_IRQn[Button]));
+ 287:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   }
+ 288:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 339              		.loc 1 288 0
+ 340 0036 07B0     		add	sp, sp, #28
+ 341              		@ sp needed
+ 342 0038 30BD     		pop	{r4, r5, pc}
+ 343              	.L24:
+ 272:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 344              		.loc 1 272 0
+ 345 003a 0023     		movs	r3, #0
+ 346 003c 0293     		str	r3, [sp, #8]
+ 274:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   }
+ 347              		.loc 1 274 0
+ 348 003e A300     		lsls	r3, r4, #2
+ 349 0040 0C4A     		ldr	r2, .L26+4
+ 350 0042 9858     		ldr	r0, [r3, r2]
+ARM GAS  /tmp/ccoZzLvh.s 			page 12
+
+
+ 351 0044 01A9     		add	r1, sp, #4
+ 352 0046 FFF7FEFF 		bl	HAL_GPIO_Init
+ 353              	.LVL19:
+ 354 004a F2E7     		b	.L22
+ 355              	.L25:
+ 280:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 356              		.loc 1 280 0
+ 357 004c 0A4B     		ldr	r3, .L26+8
+ 358 004e 0293     		str	r3, [sp, #8]
+ 282:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 359              		.loc 1 282 0
+ 360 0050 A400     		lsls	r4, r4, #2
+ 361 0052 084B     		ldr	r3, .L26+4
+ 362 0054 E058     		ldr	r0, [r4, r3]
+ 363 0056 01A9     		add	r1, sp, #4
+ 364 0058 FFF7FEFF 		bl	HAL_GPIO_Init
+ 365              	.LVL20:
+ 285:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****     HAL_NVIC_EnableIRQ((IRQn_Type)(BUTTON_IRQn[Button]));
+ 366              		.loc 1 285 0
+ 367 005c 0022     		movs	r2, #0
+ 368 005e 0321     		movs	r1, #3
+ 369 0060 0720     		movs	r0, #7
+ 370 0062 FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 371              	.LVL21:
+ 286:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   }
+ 372              		.loc 1 286 0
+ 373 0066 0720     		movs	r0, #7
+ 374 0068 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 375              	.LVL22:
+ 376              		.loc 1 288 0
+ 377 006c E3E7     		b	.L20
+ 378              	.L27:
+ 379 006e C046     		.align	2
+ 380              	.L26:
+ 381 0070 00100240 		.word	1073876992
+ 382 0074 00000000 		.word	.LANCHOR1
+ 383 0078 00002110 		.word	270598144
+ 384              		.cfi_endproc
+ 385              	.LFE46:
+ 387              		.section	.text.BSP_PB_DeInit,"ax",%progbits
+ 388              		.align	1
+ 389              		.global	BSP_PB_DeInit
+ 390              		.syntax unified
+ 391              		.code	16
+ 392              		.thumb_func
+ 393              		.fpu softvfp
+ 395              	BSP_PB_DeInit:
+ 396              	.LFB47:
+ 289:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 290:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 291:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Push Button DeInit.
+ 292:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Button Button to be configured
+ 293:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter should be: BUTTON_USER
+ 294:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @note PB DeInit does not disable the GPIO clock
+ 295:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval None
+ 296:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 297:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** void BSP_PB_DeInit(Button_TypeDef Button)
+ARM GAS  /tmp/ccoZzLvh.s 			page 13
+
+
+ 298:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 397              		.loc 1 298 0
+ 398              		.cfi_startproc
+ 399              		@ args = 0, pretend = 0, frame = 0
+ 400              		@ frame_needed = 0, uses_anonymous_args = 0
+ 401              	.LVL23:
+ 402 0000 10B5     		push	{r4, lr}
+ 403              	.LCFI8:
+ 404              		.cfi_def_cfa_offset 8
+ 405              		.cfi_offset 4, -8
+ 406              		.cfi_offset 14, -4
+ 407 0002 0400     		movs	r4, r0
+ 299:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   GPIO_InitTypeDef gpio_init_structure;
+ 300:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 301:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   gpio_init_structure.Pin = BUTTON_PIN[Button];
+ 302:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_NVIC_DisableIRQ((IRQn_Type)(BUTTON_IRQn[Button]));
+ 408              		.loc 1 302 0
+ 409 0004 0720     		movs	r0, #7
+ 410              	.LVL24:
+ 411 0006 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 412              	.LVL25:
+ 303:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   HAL_GPIO_DeInit(BUTTON_PORT[Button], gpio_init_structure.Pin);
+ 413              		.loc 1 303 0
+ 414 000a 8021     		movs	r1, #128
+ 415 000c A400     		lsls	r4, r4, #2
+ 416 000e 034B     		ldr	r3, .L29
+ 417 0010 E058     		ldr	r0, [r4, r3]
+ 418 0012 8901     		lsls	r1, r1, #6
+ 419 0014 FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 420              	.LVL26:
+ 304:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 421              		.loc 1 304 0
+ 422              		@ sp needed
+ 423 0018 10BD     		pop	{r4, pc}
+ 424              	.L30:
+ 425 001a C046     		.align	2
+ 426              	.L29:
+ 427 001c 00000000 		.word	.LANCHOR1
+ 428              		.cfi_endproc
+ 429              	.LFE47:
+ 431              		.section	.text.BSP_PB_GetState,"ax",%progbits
+ 432              		.align	1
+ 433              		.global	BSP_PB_GetState
+ 434              		.syntax unified
+ 435              		.code	16
+ 436              		.thumb_func
+ 437              		.fpu softvfp
+ 439              	BSP_PB_GetState:
+ 440              	.LFB48:
+ 305:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** 
+ 306:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** /**
+ 307:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @brief  Returns the selected Button state.
+ 308:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @param  Button Specifies the Button to be checked.
+ 309:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   *   This parameter should be: BUTTON_USER
+ 310:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   * @retval Button state.
+ 311:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   */
+ 312:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** uint32_t BSP_PB_GetState(Button_TypeDef Button)
+ARM GAS  /tmp/ccoZzLvh.s 			page 14
+
+
+ 313:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** {
+ 441              		.loc 1 313 0
+ 442              		.cfi_startproc
+ 443              		@ args = 0, pretend = 0, frame = 0
+ 444              		@ frame_needed = 0, uses_anonymous_args = 0
+ 445              	.LVL27:
+ 446 0000 10B5     		push	{r4, lr}
+ 447              	.LCFI9:
+ 448              		.cfi_def_cfa_offset 8
+ 449              		.cfi_offset 4, -8
+ 450              		.cfi_offset 14, -4
+ 314:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c ****   return HAL_GPIO_ReadPin(BUTTON_PORT[Button], BUTTON_PIN[Button]);
+ 451              		.loc 1 314 0
+ 452 0002 8021     		movs	r1, #128
+ 453 0004 8000     		lsls	r0, r0, #2
+ 454              	.LVL28:
+ 455 0006 034B     		ldr	r3, .L32
+ 456 0008 C058     		ldr	r0, [r0, r3]
+ 457 000a 8901     		lsls	r1, r1, #6
+ 458 000c FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 459              	.LVL29:
+ 315:BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c **** }
+ 460              		.loc 1 315 0
+ 461              		@ sp needed
+ 462 0010 10BD     		pop	{r4, pc}
+ 463              	.L33:
+ 464 0012 C046     		.align	2
+ 465              	.L32:
+ 466 0014 00000000 		.word	.LANCHOR1
+ 467              		.cfi_endproc
+ 468              	.LFE48:
+ 470              		.global	BUTTON_IRQn
+ 471              		.global	BUTTON_PIN
+ 472              		.global	BUTTON_PORT
+ 473              		.global	LED_PIN
+ 474              		.global	LED_PORT
+ 475              		.section	.data.BUTTON_PORT,"aw",%progbits
+ 476              		.align	2
+ 477              		.set	.LANCHOR1,. + 0
+ 480              	BUTTON_PORT:
+ 481 0000 00080048 		.word	1207961600
+ 482              		.section	.data.LED_PORT,"aw",%progbits
+ 483              		.align	2
+ 484              		.set	.LANCHOR0,. + 0
+ 487              	LED_PORT:
+ 488 0000 00000048 		.word	1207959552
+ 489              		.section	.rodata.BUTTON_IRQn,"a",%progbits
+ 490              		.align	2
+ 493              	BUTTON_IRQn:
+ 494 0000 07       		.byte	7
+ 495              		.section	.rodata.BUTTON_PIN,"a",%progbits
+ 496              		.align	2
+ 499              	BUTTON_PIN:
+ 500 0000 0020     		.short	8192
+ 501              		.section	.rodata.LED_PIN,"a",%progbits
+ 502              		.align	2
+ 505              	LED_PIN:
+ARM GAS  /tmp/ccoZzLvh.s 			page 15
+
+
+ 506 0000 2000     		.short	32
+ 507              		.text
+ 508              	.Letext0:
+ 509              		.file 2 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f091xc.h"
+ 510              		.file 3 "/opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/machine/_default_types.h"
+ 511              		.file 4 "/opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/sys/_stdint.h"
+ 512              		.file 5 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h"
+ 513              		.file 6 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h"
+ 514              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
+ 515              		.file 8 "BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.h"
+ 516              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h"
+ARM GAS  /tmp/ccoZzLvh.s 			page 16
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 stm32f0xx_nucleo.c
+     /tmp/ccoZzLvh.s:16     .text.BSP_GetVersion:0000000000000000 $t
+     /tmp/ccoZzLvh.s:23     .text.BSP_GetVersion:0000000000000000 BSP_GetVersion
+     /tmp/ccoZzLvh.s:38     .text.BSP_GetVersion:0000000000000004 $d
+     /tmp/ccoZzLvh.s:43     .text.BSP_LED_Init:0000000000000000 $t
+     /tmp/ccoZzLvh.s:50     .text.BSP_LED_Init:0000000000000000 BSP_LED_Init
+     /tmp/ccoZzLvh.s:109    .text.BSP_LED_Init:000000000000003c $d
+     /tmp/ccoZzLvh.s:115    .text.BSP_LED_DeInit:0000000000000000 $t
+     /tmp/ccoZzLvh.s:122    .text.BSP_LED_DeInit:0000000000000000 BSP_LED_DeInit
+     /tmp/ccoZzLvh.s:156    .text.BSP_LED_DeInit:000000000000001c $d
+     /tmp/ccoZzLvh.s:161    .text.BSP_LED_On:0000000000000000 $t
+     /tmp/ccoZzLvh.s:168    .text.BSP_LED_On:0000000000000000 BSP_LED_On
+     /tmp/ccoZzLvh.s:195    .text.BSP_LED_On:0000000000000014 $d
+     /tmp/ccoZzLvh.s:200    .text.BSP_LED_Off:0000000000000000 $t
+     /tmp/ccoZzLvh.s:207    .text.BSP_LED_Off:0000000000000000 BSP_LED_Off
+     /tmp/ccoZzLvh.s:234    .text.BSP_LED_Off:0000000000000014 $d
+     /tmp/ccoZzLvh.s:239    .text.BSP_LED_Toggle:0000000000000000 $t
+     /tmp/ccoZzLvh.s:246    .text.BSP_LED_Toggle:0000000000000000 BSP_LED_Toggle
+     /tmp/ccoZzLvh.s:272    .text.BSP_LED_Toggle:0000000000000010 $d
+     /tmp/ccoZzLvh.s:277    .text.BSP_PB_Init:0000000000000000 $t
+     /tmp/ccoZzLvh.s:284    .text.BSP_PB_Init:0000000000000000 BSP_PB_Init
+     /tmp/ccoZzLvh.s:381    .text.BSP_PB_Init:0000000000000070 $d
+     /tmp/ccoZzLvh.s:388    .text.BSP_PB_DeInit:0000000000000000 $t
+     /tmp/ccoZzLvh.s:395    .text.BSP_PB_DeInit:0000000000000000 BSP_PB_DeInit
+     /tmp/ccoZzLvh.s:427    .text.BSP_PB_DeInit:000000000000001c $d
+     /tmp/ccoZzLvh.s:432    .text.BSP_PB_GetState:0000000000000000 $t
+     /tmp/ccoZzLvh.s:439    .text.BSP_PB_GetState:0000000000000000 BSP_PB_GetState
+     /tmp/ccoZzLvh.s:466    .text.BSP_PB_GetState:0000000000000014 $d
+     /tmp/ccoZzLvh.s:493    .rodata.BUTTON_IRQn:0000000000000000 BUTTON_IRQn
+     /tmp/ccoZzLvh.s:499    .rodata.BUTTON_PIN:0000000000000000 BUTTON_PIN
+     /tmp/ccoZzLvh.s:480    .data.BUTTON_PORT:0000000000000000 BUTTON_PORT
+     /tmp/ccoZzLvh.s:505    .rodata.LED_PIN:0000000000000000 LED_PIN
+     /tmp/ccoZzLvh.s:487    .data.LED_PORT:0000000000000000 LED_PORT
+     /tmp/ccoZzLvh.s:476    .data.BUTTON_PORT:0000000000000000 $d
+     /tmp/ccoZzLvh.s:483    .data.LED_PORT:0000000000000000 $d
+     /tmp/ccoZzLvh.s:490    .rodata.BUTTON_IRQn:0000000000000000 $d
+     /tmp/ccoZzLvh.s:496    .rodata.BUTTON_PIN:0000000000000000 $d
+     /tmp/ccoZzLvh.s:502    .rodata.LED_PIN:0000000000000000 $d
+
+UNDEFINED SYMBOLS
+HAL_GPIO_Init
+HAL_GPIO_WritePin
+HAL_GPIO_DeInit
+HAL_GPIO_TogglePin
+HAL_NVIC_SetPriority
+HAL_NVIC_EnableIRQ
+HAL_NVIC_DisableIRQ
+HAL_GPIO_ReadPin

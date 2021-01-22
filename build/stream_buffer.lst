@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccm1seRN.s 			page 1
+ARM GAS  /tmp/ccYuRVOZ.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
   32:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /* Defining MPU_WRAPPERS_INCLUDED_FROM_API_FILE prevents task.h from redefining
   33:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** all the API functions to use the MPU wrappers.  That should only be done when
   34:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** task.h is included from an application file. */
-ARM GAS  /tmp/ccm1seRN.s 			page 2
+ARM GAS  /tmp/ccYuRVOZ.s 			page 2
 
 
   35:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** #define MPU_WRAPPERS_INCLUDED_FROM_API_FILE
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
   89:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
   90:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** #endif /* sbRECEIVE_COMPLETED_FROM_ISR */
   91:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  /tmp/ccm1seRN.s 			page 3
+ARM GAS  /tmp/ccYuRVOZ.s 			page 3
 
 
   92:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /* If the user has not provided an application specific Tx notification macro,
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  146:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	size_t xTriggerLevelBytes;			/* The number of bytes that must be in the stream buffer before a tas
  147:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	volatile TaskHandle_t xTaskWaitingToReceive; /* Holds the handle of a task waiting for data, or NU
  148:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	volatile TaskHandle_t xTaskWaitingToSend;	/* Holds the handle of a task waiting to send data to a 
-ARM GAS  /tmp/ccm1seRN.s 			page 4
+ARM GAS  /tmp/ccYuRVOZ.s 			page 4
 
 
  149:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	uint8_t *pucBuffer;					/* Points to the buffer itself - that is - the RAM that stores the data pa
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  203:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 									  size_t xBytesAvailable ); PRIVILEGED_FUNCTION
  204:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  205:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /*
-ARM GAS  /tmp/ccm1seRN.s 			page 5
+ARM GAS  /tmp/ccYuRVOZ.s 			page 5
 
 
  206:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c ****  * Called by both pxStreamBufferCreate() and pxStreamBufferCreateStatic() to
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  260:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			traceSTREAM_BUFFER_CREATE_FAILED( xIsMessageBuffer );
  261:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
  262:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  /tmp/ccm1seRN.s 			page 6
+ARM GAS  /tmp/ccYuRVOZ.s 			page 6
 
 
  263:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		return ( StreamBufferHandle_t * ) pucAllocatedMemory; /*lint !e9087 !e826 Safe cast as allocated 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  317:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			pxStreamBuffer->ucFlags |= sbFLAGS_IS_STATICALLY_ALLOCATED;
  318:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  319:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			traceSTREAM_BUFFER_CREATE( pxStreamBuffer, xIsMessageBuffer );
-ARM GAS  /tmp/ccm1seRN.s 			page 7
+ARM GAS  /tmp/ccYuRVOZ.s 			page 7
 
 
  320:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  374:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	UBaseType_t uxStreamBufferNumber;
  375:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** #endif
  376:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  /tmp/ccm1seRN.s 			page 8
+ARM GAS  /tmp/ccYuRVOZ.s 			page 8
 
 
  377:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	configASSERT( pxStreamBuffer );
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  431:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
  432:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xTriggerLevel = ( size_t ) 1; /*lint !e9044 Parameter modified to ensure it doesn't have a danger
  433:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
-ARM GAS  /tmp/ccm1seRN.s 			page 9
+ARM GAS  /tmp/ccYuRVOZ.s 			page 9
 
 
  434:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  488:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 						  const void *pvTxData,
  489:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 						  size_t xDataLengthBytes,
  490:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 						  TickType_t xTicksToWait )
-ARM GAS  /tmp/ccm1seRN.s 			page 10
+ARM GAS  /tmp/ccYuRVOZ.s 			page 10
 
 
  491:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** {
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  545:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  546:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		} while( xTaskCheckForTimeOut( &xTimeOut, &xTicksToWait ) == pdFALSE );
  547:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
-ARM GAS  /tmp/ccm1seRN.s 			page 11
+ARM GAS  /tmp/ccYuRVOZ.s 			page 11
 
 
  548:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	else
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  602:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	increased by the amount of bytes needed to store the length of the
  603:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	message. */
  604:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	if( ( pxStreamBuffer->ucFlags & sbFLAGS_IS_MESSAGE_BUFFER ) != ( uint8_t ) 0 )
-ARM GAS  /tmp/ccm1seRN.s 			page 12
+ARM GAS  /tmp/ccYuRVOZ.s 			page 12
 
 
  605:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  659:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xShouldWrite = pdTRUE;
  660:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xDataLengthBytes = configMIN( xDataLengthBytes, xSpace ); /*lint !e9044 Function parameter modifi
  661:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
-ARM GAS  /tmp/ccm1seRN.s 			page 13
+ARM GAS  /tmp/ccYuRVOZ.s 			page 13
 
 
  662:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	else if( xSpace >= xRequiredSpace )
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  716:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	if( xTicksToWait != ( TickType_t ) 0 )
  717:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
  718:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		/* Checking if there is data and clearing the notification state must be
-ARM GAS  /tmp/ccm1seRN.s 			page 14
+ARM GAS  /tmp/ccYuRVOZ.s 			page 14
 
 
  719:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		performed atomically. */
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  773:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  774:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		/* Was a task waiting for space in the buffer? */
  775:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		if( xReceivedLength != ( size_t ) 0 )
-ARM GAS  /tmp/ccm1seRN.s 			page 15
+ARM GAS  /tmp/ccYuRVOZ.s 			page 15
 
 
  776:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  830:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  831:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		/* Was a task waiting for space in the buffer? */
  832:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		if( xReceivedLength != ( size_t ) 0 )
-ARM GAS  /tmp/ccm1seRN.s 			page 16
+ARM GAS  /tmp/ccYuRVOZ.s 			page 16
 
 
  833:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  887:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  888:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	else
  889:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  /tmp/ccm1seRN.s 			page 17
+ARM GAS  /tmp/ccYuRVOZ.s 			page 17
 
 
  890:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		/* A stream of bytes is being received (as opposed to a discrete
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  944:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  945:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  946:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	/* True if the available space equals zero. */
-ARM GAS  /tmp/ccm1seRN.s 			page 18
+ARM GAS  /tmp/ccYuRVOZ.s 			page 18
 
 
  947:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	if( xStreamBufferSpacesAvailable( xStreamBuffer ) <= xBytesToStoreMessageLength )
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
 1001:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
 1002:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			( void ) xTaskNotifyFromISR( ( pxStreamBuffer )->xTaskWaitingToSend,
 1003:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 										 ( uint32_t ) 0,
-ARM GAS  /tmp/ccm1seRN.s 			page 19
+ARM GAS  /tmp/ccYuRVOZ.s 			page 19
 
 
 1004:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 										 eNoAction,
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
 1058:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
 1059:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
 1060:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	pxStreamBuffer->xHead = xNextHead;
-ARM GAS  /tmp/ccm1seRN.s 			page 20
+ARM GAS  /tmp/ccYuRVOZ.s 			page 20
 
 
 1061:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
 1115:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
 1116:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
 1117:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	return xCount;
-ARM GAS  /tmp/ccm1seRN.s 			page 21
+ARM GAS  /tmp/ccYuRVOZ.s 			page 21
 
 
 1118:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** }
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
   59              		.fpu softvfp
   61              	prvInitialiseNewStreamBuffer:
   62              	.LFB20:
-ARM GAS  /tmp/ccm1seRN.s 			page 22
+ARM GAS  /tmp/ccYuRVOZ.s 			page 22
 
 
 1139:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /*-----------------------------------------------------------*/
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
   99              	.L5:
  100 0018 FEE7     		b	.L5
  101              	.L4:
-ARM GAS  /tmp/ccm1seRN.s 			page 23
+ARM GAS  /tmp/ccYuRVOZ.s 			page 23
 
 
  102              	.LBE2:
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  144              		.loc 1 1021 0
  145              		.cfi_startproc
  146              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/ccm1seRN.s 			page 24
+ARM GAS  /tmp/ccYuRVOZ.s 			page 24
 
 
  147              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  195              	@ 0 "" 2
  196              		.thumb
  197              		.syntax unified
-ARM GAS  /tmp/ccm1seRN.s 			page 25
+ARM GAS  /tmp/ccYuRVOZ.s 			page 25
 
 
  198              	.L12:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  244              	.LVL24:
  245              	.L16:
 1060:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  /tmp/ccm1seRN.s 			page 26
+ARM GAS  /tmp/ccYuRVOZ.s 			page 26
 
 
  246              		.loc 1 1060 0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  297 0016 9A42     		cmp	r2, r3
  298 0018 00D9     		bls	.L20
  299 001a 1A00     		movs	r2, r3
-ARM GAS  /tmp/ccm1seRN.s 			page 27
+ARM GAS  /tmp/ccYuRVOZ.s 			page 27
 
 
  300              	.L20:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  348              		.syntax unified
  349              		.code	16
  350              		.thumb_func
-ARM GAS  /tmp/ccm1seRN.s 			page 28
+ARM GAS  /tmp/ccYuRVOZ.s 			page 28
 
 
  351              		.fpu softvfp
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
 1084:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		configASSERT( ( xNextTail + xFirstLength ) <= pxStreamBuffer->xLength );
  401              		.loc 1 1084 0
  402 0026 A145     		cmp	r9, r4
-ARM GAS  /tmp/ccm1seRN.s 			page 29
+ARM GAS  /tmp/ccYuRVOZ.s 			page 29
 
 
  403 0028 01D2     		bcs	.L29
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  450              		.syntax unified
  451              	.L35:
  452 004e FEE7     		b	.L35
-ARM GAS  /tmp/ccm1seRN.s 			page 30
+ARM GAS  /tmp/ccYuRVOZ.s 			page 30
 
 
  453              	.L34:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  502              		@ frame_needed = 0, uses_anonymous_args = 0
  503              	.LVL59:
  504 0000 F0B5     		push	{r4, r5, r6, r7, lr}
-ARM GAS  /tmp/ccm1seRN.s 			page 31
+ARM GAS  /tmp/ccYuRVOZ.s 			page 31
 
 
  505              	.LCFI8:
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  554 002e 9846     		mov	r8, r3
  555              	.LVL68:
  867:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  /tmp/ccm1seRN.s 			page 32
+ARM GAS  /tmp/ccYuRVOZ.s 			page 32
 
 
  556              		.loc 1 867 0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  607              	.LCFI12:
  608              		.cfi_def_cfa_offset 32
  609 0004 0D00     		movs	r5, r1
-ARM GAS  /tmp/ccm1seRN.s 			page 33
+ARM GAS  /tmp/ccYuRVOZ.s 			page 33
 
 
  610 0006 1700     		movs	r7, r2
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  250:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 										   pucAllocatedMemory + sizeof( StreamBuffer_t ),  /* Storage area follows. */ /*lint !e9
  655              		.loc 1 250 0
  656 002a 0100     		movs	r1, r0
-ARM GAS  /tmp/ccm1seRN.s 			page 34
+ARM GAS  /tmp/ccYuRVOZ.s 			page 34
 
 
  657 002c 2431     		adds	r1, r1, #36
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  708              		.loc 1 281 0 is_stmt 0 discriminator 1
  709              		.syntax divided
  710              	@ 281 "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" 1
-ARM GAS  /tmp/ccm1seRN.s 			page 35
+ARM GAS  /tmp/ccYuRVOZ.s 			page 35
 
 
  711 000e 72B6     		 cpsid i 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  758              	.L58:
  759 002a FEE7     		b	.L58
  760              	.L57:
-ARM GAS  /tmp/ccm1seRN.s 			page 36
+ARM GAS  /tmp/ccYuRVOZ.s 			page 36
 
 
  761              	.LBB3:
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  810              		.global	vStreamBufferDelete
  811              		.syntax unified
  812              		.code	16
-ARM GAS  /tmp/ccm1seRN.s 			page 37
+ARM GAS  /tmp/ccYuRVOZ.s 			page 37
 
 
  813              		.thumb_func
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  860              		.loc 1 365 0
  861 001e F7E7     		b	.L63
  862              		.cfi_endproc
-ARM GAS  /tmp/ccm1seRN.s 			page 38
+ARM GAS  /tmp/ccYuRVOZ.s 			page 38
 
 
  863              	.LFE2:
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  911              		.loc 1 377 0 discriminator 1
  912              		.syntax divided
  913              	@ 377 "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" 1
-ARM GAS  /tmp/ccm1seRN.s 			page 39
+ARM GAS  /tmp/ccYuRVOZ.s 			page 39
 
 
  914 001a 72B6     		 cpsid i 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  960 0042 30BD     		pop	{r4, r5, pc}
  961              		.cfi_endproc
  962              	.LFE3:
-ARM GAS  /tmp/ccm1seRN.s 			page 40
+ARM GAS  /tmp/ccYuRVOZ.s 			page 40
 
 
  964              		.section	.text.xStreamBufferSetTriggerLevel,"ax",%progbits
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1010              	@ 0 "" 2
  1011              		.thumb
  1012              		.syntax unified
-ARM GAS  /tmp/ccm1seRN.s 			page 41
+ARM GAS  /tmp/ccYuRVOZ.s 			page 41
 
 
  1013              	.L81:
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1060 0014 801A     		subs	r0, r0, r2
  1061              	.LVL125:
  1062              	.L87:
-ARM GAS  /tmp/ccm1seRN.s 			page 42
+ARM GAS  /tmp/ccYuRVOZ.s 			page 42
 
 
  472:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /*-----------------------------------------------------------*/
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  482:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	return xReturn;
  1114              		.loc 1 482 0 is_stmt 1
  1115 000a FFF7FEFF 		bl	prvBytesInBuffer
-ARM GAS  /tmp/ccm1seRN.s 			page 43
+ARM GAS  /tmp/ccYuRVOZ.s 			page 43
 
 
  1116              	.LVL129:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1167              	.L99:
  1168 0016 FEE7     		b	.L99
  1169              	.L111:
-ARM GAS  /tmp/ccm1seRN.s 			page 44
+ARM GAS  /tmp/ccYuRVOZ.s 			page 44
 
 
  497:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	configASSERT( pxStreamBuffer );
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1215              	.LVL140:
  531:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 					pxStreamBuffer->xTaskWaitingToSend = xTaskGetCurrentTaskHandle();
  1216              		.loc 1 531 0
-ARM GAS  /tmp/ccm1seRN.s 			page 45
+ARM GAS  /tmp/ccYuRVOZ.s 			page 45
 
 
  1217 0046 6369     		ldr	r3, [r4, #20]
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1263 0088 2000     		movs	r0, r4
  1264 008a FFF7FEFF 		bl	prvWriteMessageToBuffer
  1265              	.LVL148:
-ARM GAS  /tmp/ccm1seRN.s 			page 46
+ARM GAS  /tmp/ccYuRVOZ.s 			page 46
 
 
  1266 008e 051E     		subs	r5, r0, #0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1313 00b0 EFD3     		bcc	.L95
  571:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
  1314              		.loc 1 571 0
-ARM GAS  /tmp/ccm1seRN.s 			page 47
+ARM GAS  /tmp/ccYuRVOZ.s 			page 47
 
 
  1315 00b2 FFF7FEFF 		bl	vTaskSuspendAll
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1367              	.LCFI23:
  1368              		.cfi_def_cfa_offset 32
  1369 0008 0400     		movs	r4, r0
-ARM GAS  /tmp/ccm1seRN.s 			page 48
+ARM GAS  /tmp/ccYuRVOZ.s 			page 48
 
 
  1370 000a 0E00     		movs	r6, r1
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1416              		.loc 1 614 0
  1417 0030 0097     		str	r7, [sp]
  1418 0032 2A00     		movs	r2, r5
-ARM GAS  /tmp/ccm1seRN.s 			page 49
+ARM GAS  /tmp/ccYuRVOZ.s 			page 49
 
 
  1419 0034 3100     		movs	r1, r6
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1467              	.LVL186:
  1468 0068 4346     		mov	r3, r8
  1469 006a 0093     		str	r3, [sp]
-ARM GAS  /tmp/ccm1seRN.s 			page 50
+ARM GAS  /tmp/ccYuRVOZ.s 			page 50
 
 
  1470 006c 0023     		movs	r3, #0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  700:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  1522              		.loc 1 700 0
  1523 0010 0028     		cmp	r0, #0
-ARM GAS  /tmp/ccm1seRN.s 			page 51
+ARM GAS  /tmp/ccYuRVOZ.s 			page 51
 
 
  1524 0012 03D1     		bne	.L128
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1569              		.loc 1 732 0
  1570 0038 0020     		movs	r0, #0
  1571              	.LVL196:
-ARM GAS  /tmp/ccm1seRN.s 			page 52
+ARM GAS  /tmp/ccYuRVOZ.s 			page 52
 
 
  1572 003a FFF7FEFF 		bl	xTaskNotifyStateClear
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1617 006c 2000     		movs	r0, r4
  1618 006e FFF7FEFF 		bl	prvBytesInBuffer
  1619              	.LVL203:
-ARM GAS  /tmp/ccm1seRN.s 			page 53
+ARM GAS  /tmp/ccYuRVOZ.s 			page 53
 
 
  1620 0072 0700     		movs	r7, r0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1667 00a4 07D0     		beq	.L137
  778:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
  1668              		.loc 1 778 0 is_stmt 0 discriminator 1
-ARM GAS  /tmp/ccm1seRN.s 			page 54
+ARM GAS  /tmp/ccYuRVOZ.s 			page 54
 
 
  1669 00a6 6069     		ldr	r0, [r4, #20]
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1721 0012 03D1     		bne	.L145
  804:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  1722              		.loc 1 804 0 is_stmt 0 discriminator 1
-ARM GAS  /tmp/ccm1seRN.s 			page 55
+ARM GAS  /tmp/ccYuRVOZ.s 			page 55
 
 
  1723              		.syntax divided
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  832:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
  1771              		.loc 1 832 0
  1772 003e 04D1     		bne	.L153
-ARM GAS  /tmp/ccm1seRN.s 			page 56
+ARM GAS  /tmp/ccYuRVOZ.s 			page 56
 
 
  1773              	.LVL229:
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  848:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** }
  1821              		.loc 1 848 0
  1822 0072 E5E7     		b	.L142
-ARM GAS  /tmp/ccm1seRN.s 			page 57
+ARM GAS  /tmp/ccYuRVOZ.s 			page 57
 
 
  1823              		.cfi_endproc
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  918:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  1872              		.loc 1 918 0
  1873 0014 0020     		movs	r0, #0
-ARM GAS  /tmp/ccm1seRN.s 			page 58
+ARM GAS  /tmp/ccYuRVOZ.s 			page 58
 
 
  1874              	.LVL246:
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1922              	.LVL251:
  1923 0018 10BD     		pop	{r4, pc}
  1924              	.LVL252:
-ARM GAS  /tmp/ccm1seRN.s 			page 59
+ARM GAS  /tmp/ccYuRVOZ.s 			page 59
 
 
  1925              	.L167:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  1976              	.LVL256:
  966:Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  1977              		.loc 1 966 0
-ARM GAS  /tmp/ccm1seRN.s 			page 60
+ARM GAS  /tmp/ccYuRVOZ.s 			page 60
 
 
  1978 0008 0028     		cmp	r0, #0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  2024              	.LVL264:
  2025              	.LVL265:
  2026              	.LVL266:
-ARM GAS  /tmp/ccm1seRN.s 			page 61
+ARM GAS  /tmp/ccYuRVOZ.s 			page 61
 
 
  2027 003a 70BD     		pop	{r4, r5, r6, pc}
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  2078              		.loc 1 998 0 is_stmt 1
  2079 0010 FFF7FEFF 		bl	ulSetInterruptMaskFromISR
  2080              	.LVL271:
-ARM GAS  /tmp/ccm1seRN.s 			page 62
+ARM GAS  /tmp/ccYuRVOZ.s 			page 62
 
 
  2081 0014 0500     		movs	r5, r0
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  2129              		.code	16
  2130              		.thumb_func
  2131              		.fpu softvfp
-ARM GAS  /tmp/ccm1seRN.s 			page 63
+ARM GAS  /tmp/ccYuRVOZ.s 			page 63
 
 
  2133              	uxStreamBufferGetStreamBufferNumber:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  2172              	.LFE22:
  2174              		.section	.text.ucStreamBufferGetStreamBufferType,"ax",%progbits
  2175              		.align	1
-ARM GAS  /tmp/ccm1seRN.s 			page 64
+ARM GAS  /tmp/ccYuRVOZ.s 			page 64
 
 
  2176              		.global	ucStreamBufferGetStreamBufferType
@@ -3830,59 +3830,59 @@ ARM GAS  /tmp/ccm1seRN.s 			page 1
  2214              		.file 13 "<built-in>"
  2215              		.file 14 "/opt/gcc-arm-none-eabi-7-2018-q2-update/arm-none-eabi/include/string.h"
  2216              		.file 15 "Middlewares/Third_Party/FreeRTOS/Source/include/portable.h"
-ARM GAS  /tmp/ccm1seRN.s 			page 65
+ARM GAS  /tmp/ccYuRVOZ.s 			page 65
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stream_buffer.c
-     /tmp/ccm1seRN.s:16     .text.prvBytesInBuffer:0000000000000000 $t
-     /tmp/ccm1seRN.s:22     .text.prvBytesInBuffer:0000000000000000 prvBytesInBuffer
-     /tmp/ccm1seRN.s:55     .text.prvInitialiseNewStreamBuffer:0000000000000000 $t
-     /tmp/ccm1seRN.s:61     .text.prvInitialiseNewStreamBuffer:0000000000000000 prvInitialiseNewStreamBuffer
-     /tmp/ccm1seRN.s:136    .text.prvWriteBytesToBuffer:0000000000000000 $t
-     /tmp/ccm1seRN.s:142    .text.prvWriteBytesToBuffer:0000000000000000 prvWriteBytesToBuffer
-     /tmp/ccm1seRN.s:261    .text.prvWriteMessageToBuffer:0000000000000000 $t
-     /tmp/ccm1seRN.s:267    .text.prvWriteMessageToBuffer:0000000000000000 prvWriteMessageToBuffer
-     /tmp/ccm1seRN.s:347    .text.prvReadBytesFromBuffer:0000000000000000 $t
-     /tmp/ccm1seRN.s:353    .text.prvReadBytesFromBuffer:0000000000000000 prvReadBytesFromBuffer
-     /tmp/ccm1seRN.s:491    .text.prvReadMessageFromBuffer:0000000000000000 $t
-     /tmp/ccm1seRN.s:497    .text.prvReadMessageFromBuffer:0000000000000000 prvReadMessageFromBuffer
-     /tmp/ccm1seRN.s:584    .text.xStreamBufferGenericCreate:0000000000000000 $t
-     /tmp/ccm1seRN.s:591    .text.xStreamBufferGenericCreate:0000000000000000 xStreamBufferGenericCreate
-     /tmp/ccm1seRN.s:677    .text.xStreamBufferGenericCreateStatic:0000000000000000 $t
-     /tmp/ccm1seRN.s:684    .text.xStreamBufferGenericCreateStatic:0000000000000000 xStreamBufferGenericCreateStatic
-     /tmp/ccm1seRN.s:809    .text.vStreamBufferDelete:0000000000000000 $t
-     /tmp/ccm1seRN.s:816    .text.vStreamBufferDelete:0000000000000000 vStreamBufferDelete
-     /tmp/ccm1seRN.s:866    .text.xStreamBufferReset:0000000000000000 $t
-     /tmp/ccm1seRN.s:873    .text.xStreamBufferReset:0000000000000000 xStreamBufferReset
-     /tmp/ccm1seRN.s:965    .text.xStreamBufferSetTriggerLevel:0000000000000000 $t
-     /tmp/ccm1seRN.s:972    .text.xStreamBufferSetTriggerLevel:0000000000000000 xStreamBufferSetTriggerLevel
-     /tmp/ccm1seRN.s:1025   .text.xStreamBufferSpacesAvailable:0000000000000000 $t
-     /tmp/ccm1seRN.s:1032   .text.xStreamBufferSpacesAvailable:0000000000000000 xStreamBufferSpacesAvailable
-     /tmp/ccm1seRN.s:1081   .text.xStreamBufferBytesAvailable:0000000000000000 $t
-     /tmp/ccm1seRN.s:1088   .text.xStreamBufferBytesAvailable:0000000000000000 xStreamBufferBytesAvailable
-     /tmp/ccm1seRN.s:1124   .text.xStreamBufferSend:0000000000000000 $t
-     /tmp/ccm1seRN.s:1131   .text.xStreamBufferSend:0000000000000000 xStreamBufferSend
-     /tmp/ccm1seRN.s:1339   .text.xStreamBufferSendFromISR:0000000000000000 $t
-     /tmp/ccm1seRN.s:1346   .text.xStreamBufferSendFromISR:0000000000000000 xStreamBufferSendFromISR
-     /tmp/ccm1seRN.s:1489   .text.xStreamBufferReceive:0000000000000000 $t
-     /tmp/ccm1seRN.s:1496   .text.xStreamBufferReceive:0000000000000000 xStreamBufferReceive
-     /tmp/ccm1seRN.s:1686   .text.xStreamBufferReceiveFromISR:0000000000000000 $t
-     /tmp/ccm1seRN.s:1693   .text.xStreamBufferReceiveFromISR:0000000000000000 xStreamBufferReceiveFromISR
-     /tmp/ccm1seRN.s:1827   .text.xStreamBufferIsEmpty:0000000000000000 $t
-     /tmp/ccm1seRN.s:1834   .text.xStreamBufferIsEmpty:0000000000000000 xStreamBufferIsEmpty
-     /tmp/ccm1seRN.s:1881   .text.xStreamBufferIsFull:0000000000000000 $t
-     /tmp/ccm1seRN.s:1888   .text.xStreamBufferIsFull:0000000000000000 xStreamBufferIsFull
-     /tmp/ccm1seRN.s:1950   .text.xStreamBufferSendCompletedFromISR:0000000000000000 $t
-     /tmp/ccm1seRN.s:1957   .text.xStreamBufferSendCompletedFromISR:0000000000000000 xStreamBufferSendCompletedFromISR
-     /tmp/ccm1seRN.s:2038   .text.xStreamBufferReceiveCompletedFromISR:0000000000000000 $t
-     /tmp/ccm1seRN.s:2045   .text.xStreamBufferReceiveCompletedFromISR:0000000000000000 xStreamBufferReceiveCompletedFromISR
-     /tmp/ccm1seRN.s:2126   .text.uxStreamBufferGetStreamBufferNumber:0000000000000000 $t
-     /tmp/ccm1seRN.s:2133   .text.uxStreamBufferGetStreamBufferNumber:0000000000000000 uxStreamBufferGetStreamBufferNumber
-     /tmp/ccm1seRN.s:2151   .text.vStreamBufferSetStreamBufferNumber:0000000000000000 $t
-     /tmp/ccm1seRN.s:2158   .text.vStreamBufferSetStreamBufferNumber:0000000000000000 vStreamBufferSetStreamBufferNumber
-     /tmp/ccm1seRN.s:2175   .text.ucStreamBufferGetStreamBufferType:0000000000000000 $t
-     /tmp/ccm1seRN.s:2182   .text.ucStreamBufferGetStreamBufferType:0000000000000000 ucStreamBufferGetStreamBufferType
+     /tmp/ccYuRVOZ.s:16     .text.prvBytesInBuffer:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:22     .text.prvBytesInBuffer:0000000000000000 prvBytesInBuffer
+     /tmp/ccYuRVOZ.s:55     .text.prvInitialiseNewStreamBuffer:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:61     .text.prvInitialiseNewStreamBuffer:0000000000000000 prvInitialiseNewStreamBuffer
+     /tmp/ccYuRVOZ.s:136    .text.prvWriteBytesToBuffer:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:142    .text.prvWriteBytesToBuffer:0000000000000000 prvWriteBytesToBuffer
+     /tmp/ccYuRVOZ.s:261    .text.prvWriteMessageToBuffer:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:267    .text.prvWriteMessageToBuffer:0000000000000000 prvWriteMessageToBuffer
+     /tmp/ccYuRVOZ.s:347    .text.prvReadBytesFromBuffer:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:353    .text.prvReadBytesFromBuffer:0000000000000000 prvReadBytesFromBuffer
+     /tmp/ccYuRVOZ.s:491    .text.prvReadMessageFromBuffer:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:497    .text.prvReadMessageFromBuffer:0000000000000000 prvReadMessageFromBuffer
+     /tmp/ccYuRVOZ.s:584    .text.xStreamBufferGenericCreate:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:591    .text.xStreamBufferGenericCreate:0000000000000000 xStreamBufferGenericCreate
+     /tmp/ccYuRVOZ.s:677    .text.xStreamBufferGenericCreateStatic:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:684    .text.xStreamBufferGenericCreateStatic:0000000000000000 xStreamBufferGenericCreateStatic
+     /tmp/ccYuRVOZ.s:809    .text.vStreamBufferDelete:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:816    .text.vStreamBufferDelete:0000000000000000 vStreamBufferDelete
+     /tmp/ccYuRVOZ.s:866    .text.xStreamBufferReset:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:873    .text.xStreamBufferReset:0000000000000000 xStreamBufferReset
+     /tmp/ccYuRVOZ.s:965    .text.xStreamBufferSetTriggerLevel:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:972    .text.xStreamBufferSetTriggerLevel:0000000000000000 xStreamBufferSetTriggerLevel
+     /tmp/ccYuRVOZ.s:1025   .text.xStreamBufferSpacesAvailable:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1032   .text.xStreamBufferSpacesAvailable:0000000000000000 xStreamBufferSpacesAvailable
+     /tmp/ccYuRVOZ.s:1081   .text.xStreamBufferBytesAvailable:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1088   .text.xStreamBufferBytesAvailable:0000000000000000 xStreamBufferBytesAvailable
+     /tmp/ccYuRVOZ.s:1124   .text.xStreamBufferSend:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1131   .text.xStreamBufferSend:0000000000000000 xStreamBufferSend
+     /tmp/ccYuRVOZ.s:1339   .text.xStreamBufferSendFromISR:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1346   .text.xStreamBufferSendFromISR:0000000000000000 xStreamBufferSendFromISR
+     /tmp/ccYuRVOZ.s:1489   .text.xStreamBufferReceive:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1496   .text.xStreamBufferReceive:0000000000000000 xStreamBufferReceive
+     /tmp/ccYuRVOZ.s:1686   .text.xStreamBufferReceiveFromISR:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1693   .text.xStreamBufferReceiveFromISR:0000000000000000 xStreamBufferReceiveFromISR
+     /tmp/ccYuRVOZ.s:1827   .text.xStreamBufferIsEmpty:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1834   .text.xStreamBufferIsEmpty:0000000000000000 xStreamBufferIsEmpty
+     /tmp/ccYuRVOZ.s:1881   .text.xStreamBufferIsFull:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1888   .text.xStreamBufferIsFull:0000000000000000 xStreamBufferIsFull
+     /tmp/ccYuRVOZ.s:1950   .text.xStreamBufferSendCompletedFromISR:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:1957   .text.xStreamBufferSendCompletedFromISR:0000000000000000 xStreamBufferSendCompletedFromISR
+     /tmp/ccYuRVOZ.s:2038   .text.xStreamBufferReceiveCompletedFromISR:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:2045   .text.xStreamBufferReceiveCompletedFromISR:0000000000000000 xStreamBufferReceiveCompletedFromISR
+     /tmp/ccYuRVOZ.s:2126   .text.uxStreamBufferGetStreamBufferNumber:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:2133   .text.uxStreamBufferGetStreamBufferNumber:0000000000000000 uxStreamBufferGetStreamBufferNumber
+     /tmp/ccYuRVOZ.s:2151   .text.vStreamBufferSetStreamBufferNumber:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:2158   .text.vStreamBufferSetStreamBufferNumber:0000000000000000 vStreamBufferSetStreamBufferNumber
+     /tmp/ccYuRVOZ.s:2175   .text.ucStreamBufferGetStreamBufferType:0000000000000000 $t
+     /tmp/ccYuRVOZ.s:2182   .text.ucStreamBufferGetStreamBufferType:0000000000000000 ucStreamBufferGetStreamBufferType
 
 UNDEFINED SYMBOLS
 memset
@@ -3890,7 +3890,7 @@ memcpy
 pvPortMalloc
 vPortFree
 vTaskSetTimeOutState
-ARM GAS  /tmp/ccm1seRN.s 			page 66
+ARM GAS  /tmp/ccYuRVOZ.s 			page 66
 
 
 vPortEnterCritical

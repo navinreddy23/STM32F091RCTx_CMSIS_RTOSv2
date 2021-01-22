@@ -32,7 +32,8 @@ build/freertos.o: Src/freertos.c \
  Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h \
  Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h \
  Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h \
- Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h
+ Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h \
+ BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.h
 
 Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -107,3 +108,5 @@ Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h:
 Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:
 
 Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h:
+
+BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.h:

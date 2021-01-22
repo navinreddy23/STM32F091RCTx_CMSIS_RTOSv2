@@ -24,7 +24,7 @@ build/stm32f0xx_it.o: Src/stm32f0xx_it.c Inc/main.h \
  Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h \
  Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h \
  Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h \
- Inc/stm32f0xx_it.h
+ BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.h Inc/stm32f0xx_it.h
 
 Inc/main.h:
 
@@ -81,5 +81,7 @@ Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h:
 Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:
 
 Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h:
+
+BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.h:
 
 Inc/stm32f0xx_it.h:

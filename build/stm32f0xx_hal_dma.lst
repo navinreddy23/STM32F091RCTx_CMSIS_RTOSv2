@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc70LIWx.s 			page 1
+ARM GAS  /tmp/cc1MdqZa.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
   32:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****      -@-   In Memory-to-Memory transfer mode, Circular mode is not allowed.
   33:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****      *** Polling mode IO operation ***
   34:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****      =================================   
-ARM GAS  /tmp/cc70LIWx.s 			page 2
+ARM GAS  /tmp/cc1MdqZa.s 			page 2
 
 
   35:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     [..] 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
   89:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** 
   90:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** #ifdef HAL_DMA_MODULE_ENABLED
   91:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** 
-ARM GAS  /tmp/cc70LIWx.s 			page 3
+ARM GAS  /tmp/cc1MdqZa.s 			page 3
 
 
   92:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** /* Private typedef -----------------------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  146:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   }
  147:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   
  148:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   /* Check the parameters */
-ARM GAS  /tmp/cc70LIWx.s 			page 4
+ARM GAS  /tmp/cc1MdqZa.s 			page 4
 
 
  149:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   assert_param(IS_DMA_ALL_INSTANCE(hdma->Instance));
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  203:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   if(NULL == hdma)
  204:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   {
  205:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     return HAL_ERROR;
-ARM GAS  /tmp/cc70LIWx.s 			page 5
+ARM GAS  /tmp/cc1MdqZa.s 			page 5
 
 
  206:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   }
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  260:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****  ===============================================================================  
  261:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     [..]  This section provides functions allowing to:
  262:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****       (+) Configure the source, destination address and data length and Start DMA transfer
-ARM GAS  /tmp/cc70LIWx.s 			page 6
+ARM GAS  /tmp/cc1MdqZa.s 			page 6
 
 
  263:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****       (+) Configure the source, destination address and data length and 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  317:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   return status; 
  318:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** } 
  319:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** 
-ARM GAS  /tmp/cc70LIWx.s 			page 7
+ARM GAS  /tmp/cc1MdqZa.s 			page 7
 
 
  320:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** /**
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  374:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   }     
  375:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   
  376:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   return status;    
-ARM GAS  /tmp/cc70LIWx.s 			page 8
+ARM GAS  /tmp/cc1MdqZa.s 			page 8
 
 
  377:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** } 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  431:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****         
  432:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     status = HAL_ERROR;
  433:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   }
-ARM GAS  /tmp/cc70LIWx.s 			page 9
+ARM GAS  /tmp/cc1MdqZa.s 			page 9
 
 
  434:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   else
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  488:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   
  489:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   /* Get the level transfer complete flag */
  490:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   if(HAL_DMA_FULL_TRANSFER == CompleteLevel)
-ARM GAS  /tmp/cc70LIWx.s 			page 10
+ARM GAS  /tmp/cc1MdqZa.s 			page 10
 
 
  491:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  545:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     /* Clear the transfer complete flag */
  546:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     hdma->DmaBaseAddress->IFCR = DMA_FLAG_TC1 << hdma->ChannelIndex;
  547:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** 
-ARM GAS  /tmp/cc70LIWx.s 			page 11
+ARM GAS  /tmp/cc1MdqZa.s 			page 11
 
 
  548:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     /* The selected Channelx EN bit is cleared (DMA is disabled and 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  602:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   	{
  603:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   		/* Disable the transfer complete  & transfer error interrupts */
  604:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   		/* if the DMA mode is not CIRCULAR */
-ARM GAS  /tmp/cc70LIWx.s 			page 12
+ARM GAS  /tmp/cc1MdqZa.s 			page 12
 
 
  605:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   		hdma->Instance->CCR &= ~(DMA_IT_TC | DMA_IT_TE);
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  659:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   *                               a DMA_HandleTypeDef structure as parameter.
  660:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   * @retval HAL status
  661:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   */                          
-ARM GAS  /tmp/cc70LIWx.s 			page 13
+ARM GAS  /tmp/cc1MdqZa.s 			page 13
 
 
  662:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** HAL_StatusTypeDef HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef Callb
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  716:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** 
  717:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     /* Process locked */
  718:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   __HAL_LOCK(hdma);
-ARM GAS  /tmp/cc70LIWx.s 			page 14
+ARM GAS  /tmp/cc1MdqZa.s 			page 14
 
 
  719:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  773:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****  ===============================================================================  
  774:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     [..]
  775:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     This subsection provides functions allowing to
-ARM GAS  /tmp/cc70LIWx.s 			page 15
+ARM GAS  /tmp/cc1MdqZa.s 			page 15
 
 
  776:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****       (+) Check the DMA state
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
   27              		@ args = 0, pretend = 0, frame = 0
   28              		@ frame_needed = 0, uses_anonymous_args = 0
   29              	.LVL0:
-ARM GAS  /tmp/cc70LIWx.s 			page 16
+ARM GAS  /tmp/cc1MdqZa.s 			page 16
 
 
   30 0000 70B5     		push	{r4, r5, r6, lr}
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
   59              		.loc 1 852 0
   60              		@ sp needed
   61 001e 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/cc70LIWx.s 			page 17
+ARM GAS  /tmp/cc1MdqZa.s 			page 17
 
 
   62              	.LVL3:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  867:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA1_Channel1) / ((uint32_t)DMA1_Ch
  868:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     hdma->DmaBaseAddress = DMA1;
  869:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   }
-ARM GAS  /tmp/cc70LIWx.s 			page 18
+ARM GAS  /tmp/cc1MdqZa.s 			page 18
 
 
  870:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   else 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  141 0048 00000240 		.word	1073872896
  142              		.cfi_endproc
  143              	.LFE53:
-ARM GAS  /tmp/cc70LIWx.s 			page 19
+ARM GAS  /tmp/cc1MdqZa.s 			page 19
 
 
  145              		.section	.text.HAL_DMA_Init,"ax",%progbits
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  172:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****           hdma->Init.Mode                | hdma->Init.Priority;
  193              		.loc 1 172 0
  194 0022 6069     		ldr	r0, [r4, #20]
-ARM GAS  /tmp/cc70LIWx.s 			page 20
+ARM GAS  /tmp/cc1MdqZa.s 			page 20
 
 
  195 0024 0343     		orrs	r3, r0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  240              		.align	1
  241              		.global	HAL_DMA_DeInit
  242              		.syntax unified
-ARM GAS  /tmp/cc70LIWx.s 			page 21
+ARM GAS  /tmp/cc1MdqZa.s 			page 21
 
 
  243              		.code	16
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  289 002a 9640     		lsls	r6, r6, r2
  290 002c 5E60     		str	r6, [r3, #4]
  233:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   hdma->XferHalfCpltCallback = NULL;
-ARM GAS  /tmp/cc70LIWx.s 			page 22
+ARM GAS  /tmp/cc1MdqZa.s 			page 22
 
 
  291              		.loc 1 233 0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  337              	.LVL26:
  338 0000 70B5     		push	{r4, r5, r6, lr}
  339              	.LCFI4:
-ARM GAS  /tmp/cc70LIWx.s 			page 23
+ARM GAS  /tmp/cc1MdqZa.s 			page 23
 
 
  340              		.cfi_def_cfa_offset 16
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  300:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   	
  386              		.loc 1 300 0
  387 002e 2668     		ldr	r6, [r4]
-ARM GAS  /tmp/cc70LIWx.s 			page 24
+ARM GAS  /tmp/cc1MdqZa.s 			page 24
 
 
  388 0030 3068     		ldr	r0, [r6]
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  438              	.LVL39:
  439 0006 205C     		ldrb	r0, [r4, r0]
  440 0008 0128     		cmp	r0, #1
-ARM GAS  /tmp/cc70LIWx.s 			page 25
+ARM GAS  /tmp/cc1MdqZa.s 			page 25
 
 
  441 000a 32D0     		beq	.L29
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  485              		.loc 1 354 0
  486 003e E36A     		ldr	r3, [r4, #44]
  487 0040 002B     		cmp	r3, #0
-ARM GAS  /tmp/cc70LIWx.s 			page 26
+ARM GAS  /tmp/cc1MdqZa.s 			page 26
 
 
  488 0042 0BD0     		beq	.L27
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  537              		.loc 1 386 0
  538              		.cfi_startproc
  539              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cc70LIWx.s 			page 27
+ARM GAS  /tmp/cc1MdqZa.s 			page 27
 
 
  540              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  409:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   
  586              		.loc 1 409 0
  587 0036 2122     		movs	r2, #33
-ARM GAS  /tmp/cc70LIWx.s 			page 28
+ARM GAS  /tmp/cc1MdqZa.s 			page 28
 
 
  588 0038 8354     		strb	r3, [r0, r2]
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  637              	.LVL56:
  638              	.L35:
  438:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****     
-ARM GAS  /tmp/cc70LIWx.s 			page 29
+ARM GAS  /tmp/cc1MdqZa.s 			page 29
 
 
  639              		.loc 1 438 0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  687              		.thumb_func
  688              		.fpu softvfp
  690              	HAL_DMA_PollForTransfer:
-ARM GAS  /tmp/cc70LIWx.s 			page 30
+ARM GAS  /tmp/cc1MdqZa.s 			page 30
 
 
  691              	.LFB46:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  738              		.loc 1 483 0
  739 0022 0368     		ldr	r3, [r0]
  740 0024 1B68     		ldr	r3, [r3]
-ARM GAS  /tmp/cc70LIWx.s 			page 31
+ARM GAS  /tmp/cc1MdqZa.s 			page 31
 
 
  741 0026 9B06     		lsls	r3, r3, #26
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  786 0064 A363     		str	r3, [r4, #56]
  533:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c **** 
  787              		.loc 1 533 0
-ARM GAS  /tmp/cc70LIWx.s 			page 32
+ARM GAS  /tmp/cc1MdqZa.s 			page 32
 
 
  788 0066 2122     		movs	r2, #33
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  832 009a 0120     		movs	r0, #1
  833 009c BFE7     		b	.L40
  834              	.L52:
-ARM GAS  /tmp/cc70LIWx.s 			page 33
+ARM GAS  /tmp/cc1MdqZa.s 			page 33
 
 
  543:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   {
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  884              		.cfi_offset 5, -12
  885              		.cfi_offset 6, -8
  886              		.cfi_offset 14, -4
-ARM GAS  /tmp/cc70LIWx.s 			page 34
+ARM GAS  /tmp/cc1MdqZa.s 			page 34
 
 
  572:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   uint32_t source_it = hdma->Instance->CCR;
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  931              	.LVL82:
  932 0038 70BD     		pop	{r4, r5, r6, pc}
  933              	.LVL83:
-ARM GAS  /tmp/cc70LIWx.s 			page 35
+ARM GAS  /tmp/cc1MdqZa.s 			page 35
 
 
  934              	.L55:
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  978              		.loc 1 625 0
  979 0074 0823     		movs	r3, #8
  980 0076 8B40     		lsls	r3, r3, r1
-ARM GAS  /tmp/cc70LIWx.s 			page 36
+ARM GAS  /tmp/cc1MdqZa.s 			page 36
 
 
  981 0078 1A42     		tst	r2, r3
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  1028              	HAL_DMA_RegisterCallback:
  1029              	.LFB48:
  663:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  /tmp/cc70LIWx.s 			page 37
+ARM GAS  /tmp/cc1MdqZa.s 			page 37
 
 
  1030              		.loc 1 663 0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  1077 0028 0029     		cmp	r1, #0
  1078 002a 05D0     		beq	.L64
  1079 002c 0229     		cmp	r1, #2
-ARM GAS  /tmp/cc70LIWx.s 			page 38
+ARM GAS  /tmp/cc1MdqZa.s 			page 38
 
 
  1080 002e 09D0     		beq	.L65
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  1121              		.section	.text.HAL_DMA_UnRegisterCallback,"ax",%progbits
  1122              		.align	1
  1123              		.global	HAL_DMA_UnRegisterCallback
-ARM GAS  /tmp/cc70LIWx.s 			page 39
+ARM GAS  /tmp/cc1MdqZa.s 			page 39
 
 
  1124              		.syntax unified
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  1171 0026 8900     		lsls	r1, r1, #2
  1172              	.LVL102:
  1173 0028 0C4B     		ldr	r3, .L85
-ARM GAS  /tmp/cc70LIWx.s 			page 40
+ARM GAS  /tmp/cc1MdqZa.s 			page 40
 
 
  1174 002a 5B58     		ldr	r3, [r3, r1]
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  744:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****            break; 
  1217              		.loc 1 744 0
  1218 004e 4363     		str	r3, [r0, #52]
-ARM GAS  /tmp/cc70LIWx.s 			page 41
+ARM GAS  /tmp/cc1MdqZa.s 			page 41
 
 
  745:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****      
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  1270              		.fpu softvfp
  1272              	HAL_DMA_GetError:
  1273              	.LFB51:
-ARM GAS  /tmp/cc70LIWx.s 			page 42
+ARM GAS  /tmp/cc1MdqZa.s 			page 42
 
 
  801:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c ****   return hdma->ErrorCode;
@@ -2488,43 +2488,43 @@ ARM GAS  /tmp/cc70LIWx.s 			page 1
  1296              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
  1297              		.file 8 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
  1298              		.file 9 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
-ARM GAS  /tmp/cc70LIWx.s 			page 43
+ARM GAS  /tmp/cc1MdqZa.s 			page 43
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f0xx_hal_dma.c
-     /tmp/cc70LIWx.s:16     .text.DMA_SetConfig:0000000000000000 $t
-     /tmp/cc70LIWx.s:22     .text.DMA_SetConfig:0000000000000000 DMA_SetConfig
-     /tmp/cc70LIWx.s:77     .text.DMA_CalcBaseAndBitshift:0000000000000000 $t
-     /tmp/cc70LIWx.s:83     .text.DMA_CalcBaseAndBitshift:0000000000000000 DMA_CalcBaseAndBitshift
-     /tmp/cc70LIWx.s:137    .text.DMA_CalcBaseAndBitshift:0000000000000038 $d
-     /tmp/cc70LIWx.s:146    .text.HAL_DMA_Init:0000000000000000 $t
-     /tmp/cc70LIWx.s:153    .text.HAL_DMA_Init:0000000000000000 HAL_DMA_Init
-     /tmp/cc70LIWx.s:235    .text.HAL_DMA_Init:000000000000004c $d
-     /tmp/cc70LIWx.s:240    .text.HAL_DMA_DeInit:0000000000000000 $t
-     /tmp/cc70LIWx.s:247    .text.HAL_DMA_DeInit:0000000000000000 HAL_DMA_DeInit
-     /tmp/cc70LIWx.s:324    .text.HAL_DMA_Start:0000000000000000 $t
-     /tmp/cc70LIWx.s:331    .text.HAL_DMA_Start:0000000000000000 HAL_DMA_Start
-     /tmp/cc70LIWx.s:413    .text.HAL_DMA_Start_IT:0000000000000000 $t
-     /tmp/cc70LIWx.s:420    .text.HAL_DMA_Start_IT:0000000000000000 HAL_DMA_Start_IT
-     /tmp/cc70LIWx.s:528    .text.HAL_DMA_Abort:0000000000000000 $t
-     /tmp/cc70LIWx.s:535    .text.HAL_DMA_Abort:0000000000000000 HAL_DMA_Abort
-     /tmp/cc70LIWx.s:601    .text.HAL_DMA_Abort_IT:0000000000000000 $t
-     /tmp/cc70LIWx.s:608    .text.HAL_DMA_Abort_IT:0000000000000000 HAL_DMA_Abort_IT
-     /tmp/cc70LIWx.s:683    .text.HAL_DMA_PollForTransfer:0000000000000000 $t
-     /tmp/cc70LIWx.s:690    .text.HAL_DMA_PollForTransfer:0000000000000000 HAL_DMA_PollForTransfer
-     /tmp/cc70LIWx.s:866    .text.HAL_DMA_IRQHandler:0000000000000000 $t
-     /tmp/cc70LIWx.s:873    .text.HAL_DMA_IRQHandler:0000000000000000 HAL_DMA_IRQHandler
-     /tmp/cc70LIWx.s:1021   .text.HAL_DMA_RegisterCallback:0000000000000000 $t
-     /tmp/cc70LIWx.s:1028   .text.HAL_DMA_RegisterCallback:0000000000000000 HAL_DMA_RegisterCallback
-     /tmp/cc70LIWx.s:1122   .text.HAL_DMA_UnRegisterCallback:0000000000000000 $t
-     /tmp/cc70LIWx.s:1129   .text.HAL_DMA_UnRegisterCallback:0000000000000000 HAL_DMA_UnRegisterCallback
-     /tmp/cc70LIWx.s:1177   .rodata.HAL_DMA_UnRegisterCallback:0000000000000000 $d
-     /tmp/cc70LIWx.s:1233   .text.HAL_DMA_UnRegisterCallback:000000000000005c $d
-     /tmp/cc70LIWx.s:1238   .text.HAL_DMA_GetState:0000000000000000 $t
-     /tmp/cc70LIWx.s:1245   .text.HAL_DMA_GetState:0000000000000000 HAL_DMA_GetState
-     /tmp/cc70LIWx.s:1265   .text.HAL_DMA_GetError:0000000000000000 $t
-     /tmp/cc70LIWx.s:1272   .text.HAL_DMA_GetError:0000000000000000 HAL_DMA_GetError
+     /tmp/cc1MdqZa.s:16     .text.DMA_SetConfig:0000000000000000 $t
+     /tmp/cc1MdqZa.s:22     .text.DMA_SetConfig:0000000000000000 DMA_SetConfig
+     /tmp/cc1MdqZa.s:77     .text.DMA_CalcBaseAndBitshift:0000000000000000 $t
+     /tmp/cc1MdqZa.s:83     .text.DMA_CalcBaseAndBitshift:0000000000000000 DMA_CalcBaseAndBitshift
+     /tmp/cc1MdqZa.s:137    .text.DMA_CalcBaseAndBitshift:0000000000000038 $d
+     /tmp/cc1MdqZa.s:146    .text.HAL_DMA_Init:0000000000000000 $t
+     /tmp/cc1MdqZa.s:153    .text.HAL_DMA_Init:0000000000000000 HAL_DMA_Init
+     /tmp/cc1MdqZa.s:235    .text.HAL_DMA_Init:000000000000004c $d
+     /tmp/cc1MdqZa.s:240    .text.HAL_DMA_DeInit:0000000000000000 $t
+     /tmp/cc1MdqZa.s:247    .text.HAL_DMA_DeInit:0000000000000000 HAL_DMA_DeInit
+     /tmp/cc1MdqZa.s:324    .text.HAL_DMA_Start:0000000000000000 $t
+     /tmp/cc1MdqZa.s:331    .text.HAL_DMA_Start:0000000000000000 HAL_DMA_Start
+     /tmp/cc1MdqZa.s:413    .text.HAL_DMA_Start_IT:0000000000000000 $t
+     /tmp/cc1MdqZa.s:420    .text.HAL_DMA_Start_IT:0000000000000000 HAL_DMA_Start_IT
+     /tmp/cc1MdqZa.s:528    .text.HAL_DMA_Abort:0000000000000000 $t
+     /tmp/cc1MdqZa.s:535    .text.HAL_DMA_Abort:0000000000000000 HAL_DMA_Abort
+     /tmp/cc1MdqZa.s:601    .text.HAL_DMA_Abort_IT:0000000000000000 $t
+     /tmp/cc1MdqZa.s:608    .text.HAL_DMA_Abort_IT:0000000000000000 HAL_DMA_Abort_IT
+     /tmp/cc1MdqZa.s:683    .text.HAL_DMA_PollForTransfer:0000000000000000 $t
+     /tmp/cc1MdqZa.s:690    .text.HAL_DMA_PollForTransfer:0000000000000000 HAL_DMA_PollForTransfer
+     /tmp/cc1MdqZa.s:866    .text.HAL_DMA_IRQHandler:0000000000000000 $t
+     /tmp/cc1MdqZa.s:873    .text.HAL_DMA_IRQHandler:0000000000000000 HAL_DMA_IRQHandler
+     /tmp/cc1MdqZa.s:1021   .text.HAL_DMA_RegisterCallback:0000000000000000 $t
+     /tmp/cc1MdqZa.s:1028   .text.HAL_DMA_RegisterCallback:0000000000000000 HAL_DMA_RegisterCallback
+     /tmp/cc1MdqZa.s:1122   .text.HAL_DMA_UnRegisterCallback:0000000000000000 $t
+     /tmp/cc1MdqZa.s:1129   .text.HAL_DMA_UnRegisterCallback:0000000000000000 HAL_DMA_UnRegisterCallback
+     /tmp/cc1MdqZa.s:1177   .rodata.HAL_DMA_UnRegisterCallback:0000000000000000 $d
+     /tmp/cc1MdqZa.s:1233   .text.HAL_DMA_UnRegisterCallback:000000000000005c $d
+     /tmp/cc1MdqZa.s:1238   .text.HAL_DMA_GetState:0000000000000000 $t
+     /tmp/cc1MdqZa.s:1245   .text.HAL_DMA_GetState:0000000000000000 HAL_DMA_GetState
+     /tmp/cc1MdqZa.s:1265   .text.HAL_DMA_GetError:0000000000000000 $t
+     /tmp/cc1MdqZa.s:1272   .text.HAL_DMA_GetError:0000000000000000 HAL_DMA_GetError
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

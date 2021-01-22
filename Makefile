@@ -41,6 +41,7 @@ Src/freertos.c \
 Src/stm32f0xx_it.c \
 Src/stm32f0xx_hal_msp.c \
 Src/stm32f0xx_hal_timebase_tim.c \
+BSP/STM32F0xx-Nucleo/stm32f0xx_nucleo.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c \
@@ -125,6 +126,7 @@ AS_INCLUDES =  \
 # C includes
 C_INCLUDES =  \
 -IInc \
+-IBSP/STM32F0xx-Nucleo \
 -IDrivers/STM32F0xx_HAL_Driver/Inc \
 -IDrivers/STM32F0xx_HAL_Driver/Inc/Legacy \
 -IMiddlewares/Third_Party/FreeRTOS/Source/include \

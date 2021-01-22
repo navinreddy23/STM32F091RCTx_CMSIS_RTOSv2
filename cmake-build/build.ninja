@@ -51,7 +51,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/startup_stm32f091xc.s.obj: ASM_COMPILER__
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/startup_stm32f091xc.s.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -60,7 +60,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -69,7 +69,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -78,7 +78,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -87,7 +87,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_can.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -96,7 +96,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cec.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -105,7 +105,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_comp.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -114,7 +114,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -123,7 +123,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_crc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -132,7 +132,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_crc_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -141,7 +141,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dac.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -150,7 +150,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dac_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -159,7 +159,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -168,7 +168,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -177,7 +177,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -186,7 +186,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -195,7 +195,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -204,7 +204,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -213,7 +213,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -222,7 +222,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2s.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -231,7 +231,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_irda.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -240,7 +240,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_iwdg.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -249,7 +249,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pcd.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -258,7 +258,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pcd_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -267,7 +267,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -276,7 +276,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -285,7 +285,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -294,7 +294,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -303,7 +303,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -312,7 +312,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -321,7 +321,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_smartcard.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -330,7 +330,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_smartcard_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -339,7 +339,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_smbus.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -348,7 +348,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -357,7 +357,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -366,7 +366,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -375,7 +375,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -384,7 +384,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tsc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -393,7 +393,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -402,7 +402,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -411,7 +411,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -420,7 +420,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart_ex.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -429,7 +429,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_wwdg.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -438,7 +438,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_adc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -447,7 +447,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_comp.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -456,7 +456,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_crc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -465,7 +465,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_crs.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -474,7 +474,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_dac.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -483,7 +483,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_dma.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -492,7 +492,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_exti.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -501,7 +501,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_gpio.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -510,7 +510,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_i2c.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -519,7 +519,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_pwr.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -528,7 +528,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_rcc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -537,7 +537,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_rtc.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -546,7 +546,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_spi.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -555,7 +555,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_tim.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -564,7 +564,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_usart.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -573,7 +573,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_usb.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -582,7 +582,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0x
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_ll_utils.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Drivers/STM32F0xx_HAL_Driver/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -591,7 +591,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Src/freertos.c.obj: C_COMPILER__nucleo-f0
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Src/freertos.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -600,7 +600,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Src/main.c.obj: C_COMPILER__nucleo-f091RC
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Src/main.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -609,7 +609,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Src/stm32f0xx_hal_msp.c.obj: C_COMPILER__
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Src/stm32f0xx_hal_msp.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -618,7 +618,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Src/stm32f0xx_hal_timebase_tim.c.obj: C_C
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Src/stm32f0xx_hal_timebase_tim.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -627,7 +627,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Src/stm32f0xx_it.c.obj: C_COMPILER__nucle
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Src/stm32f0xx_it.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -636,7 +636,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Src/system_stm32f0xx.c.obj: C_COMPILER__n
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Src/system_stm32f0xx.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Src
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -645,7 +645,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/p
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -654,7 +654,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/c
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -663,7 +663,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/e
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -672,7 +672,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/l
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -681,7 +681,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/q
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -690,7 +690,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/s
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -699,7 +699,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/t
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -708,7 +708,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/t
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -717,7 +717,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/p
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/
@@ -726,7 +726,7 @@ build CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/C
   DEFINES = -DSTM32F091xC -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d
   FLAGS = -g   -mcpu=cortex-m0 -mthumb -fdata-sections -ffunction-sections -Wall -Og -std=c99
-  INCLUDES = -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+  INCLUDES = -I../Inc -I../BSP/STM32F0xx-Nucleo -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0 -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   OBJECT_DIR = CMakeFiles/nucleo-f091RC.out.dir
   OBJECT_FILE_DIR = CMakeFiles/nucleo-f091RC.out.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
   TARGET_COMPILE_PDB = CMakeFiles/nucleo-f091RC.out.dir/

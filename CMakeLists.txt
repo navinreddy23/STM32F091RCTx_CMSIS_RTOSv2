@@ -10,8 +10,10 @@ set(CMAKE_C_EXTENSIONS OFF)
 set(DRIVERS_DIR ${CMAKE_SOURCE_DIR}/Drivers/STM32F0xx_HAL_Driver)
 set(FREERTOS_DIR ${CMAKE_SOURCE_DIR}/Middlewares/Third_Party/FreeRTOS)
 set(CMSIS_DIR Drivers/CMSIS)
+set(BSP_DIR ${CMAKE_SOURCE_DIR}/BSP/STM32F0xx-Nucleo)
 set(STARTUP startup_stm32f091xc.s)
 
+set(BSP_SRC ${BSP_DIR}/stm32f0xx_nucleo.c)
 set(CMSIS_OS_SRC ${FREERTOS_DIR}/Source/CMSIS_RTOS_V2/cmsis_os2.c)
 
 file(GLOB STM32F0_DRIVER_SRC ${DRIVERS_DIR}/Src/*.c)
@@ -36,6 +38,7 @@ target_compile_definitions(${EXECUTABLE} PRIVATE
 
 target_include_directories(${EXECUTABLE} PRIVATE
         Inc
+	${BSP_DIR}
         ${DRIVERS_DIR}/Inc
         ${CMSIS_DIR}/Device/ST/STM32F0xx/Include
         ${CMSIS_DIR}/Include

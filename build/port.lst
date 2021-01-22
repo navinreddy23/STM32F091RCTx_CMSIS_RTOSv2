@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccWFTjC9.s 			page 1
+ARM GAS  /tmp/ccZ8HXST.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
   32:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** /* Scheduler includes. */
   33:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** #include "FreeRTOS.h"
   34:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** #include "task.h"
-ARM GAS  /tmp/ccWFTjC9.s 			page 2
+ARM GAS  /tmp/ccZ8HXST.s 			page 2
 
 
   35:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
   89:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c ****  */
   90:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** static void vPortStartFirstTask( void ) __attribute__ (( naked ));
   91:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
-ARM GAS  /tmp/ccWFTjC9.s 			page 3
+ARM GAS  /tmp/ccZ8HXST.s 			page 3
 
 
   92:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** /*
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  146:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
  147:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	return pxTopOfStack;
  148:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** }
-ARM GAS  /tmp/ccWFTjC9.s 			page 4
+ARM GAS  /tmp/ccZ8HXST.s 			page 4
 
 
  149:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** /*-----------------------------------------------------------*/
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  165:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 		/* This file calls prvTaskExitError() after the scheduler has been
  166:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 		started to remove a compiler warning about the function being defined
  167:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 		but never called.  ulDummy is used purely to quieten other warnings
-ARM GAS  /tmp/ccWFTjC9.s 			page 5
+ARM GAS  /tmp/ccZ8HXST.s 			page 5
 
 
  168:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 		about code appearing after this function is called - making ulDummy
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
   98 000e 80F31488 		msr  CONTROL, r0				
   99 0012 BFF36F8F 		isb							
  100 0016 3FBC     		pop  {r0-r5}					
-ARM GAS  /tmp/ccWFTjC9.s 			page 6
+ARM GAS  /tmp/ccZ8HXST.s 			page 6
 
 
  101 0018 AE46     		mov  lr, r5					
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  217:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	*(portNVIC_SYSPRI2) |= portNVIC_PENDSV_PRI;
  218:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	*(portNVIC_SYSPRI2) |= portNVIC_SYSTICK_PRI;
  219:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
-ARM GAS  /tmp/ccWFTjC9.s 			page 7
+ARM GAS  /tmp/ccZ8HXST.s 			page 7
 
 
  220:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	/* Start the timer that generates the tick ISR.  Interrupts are disabled
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  274:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** {
  275:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	configASSERT( uxCriticalNesting );
  276:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c ****     uxCriticalNesting--;
-ARM GAS  /tmp/ccWFTjC9.s 			page 8
+ARM GAS  /tmp/ccZ8HXST.s 			page 8
 
 
  277:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c ****     if( uxCriticalNesting == 0 )
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  331:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	"	subs r0, r0, #32					\n" /* Make space for the remaining low registers. */
  332:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	"	str r0, [r2]						\n" /* Save the new top of stack. */
  333:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	"	stmia r0!, {r4-r7}					\n" /* Store the low registers that are not saved automatically. */
-ARM GAS  /tmp/ccWFTjC9.s 			page 9
+ARM GAS  /tmp/ccZ8HXST.s 			page 9
 
 
  334:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	" 	mov r4, r8							\n" /* Store the high registers. */
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  388:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	{
  389:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	uint32_t ulReloadValue, ulCompleteTickPeriods, ulCompletedSysTickDecrements, ulSysTickCTRL;
  390:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	TickType_t xModifiableIdleTime;
-ARM GAS  /tmp/ccWFTjC9.s 			page 10
+ARM GAS  /tmp/ccZ8HXST.s 			page 10
 
 
  391:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  445:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 			/* Restart SysTick. */
  446:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 			portNVIC_SYSTICK_CTRL |= portNVIC_SYSTICK_ENABLE;
  447:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
-ARM GAS  /tmp/ccWFTjC9.s 			page 11
+ARM GAS  /tmp/ccZ8HXST.s 			page 11
 
 
  448:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 			/* Sleep until something happens.  configPRE_SLEEP_PROCESSING() can
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  502:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 			{
  503:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 				/* Something other than the tick interrupt ended the sleep.
  504:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 				Work out how long the sleep lasted rounded to complete tick
-ARM GAS  /tmp/ccWFTjC9.s 			page 12
+ARM GAS  /tmp/ccZ8HXST.s 			page 12
 
 
  505:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 				periods (not the ulReload value which accounted for part
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  550:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c ****  #endif /* configUSE_TICKLESS_IDLE */
  551:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
  552:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** /* Stop and reset the SysTick. */
-ARM GAS  /tmp/ccWFTjC9.s 			page 13
+ARM GAS  /tmp/ccZ8HXST.s 			page 13
 
 
  553:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	portNVIC_SYSTICK_CTRL = 0UL;
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  183 0000 10B5     		push	{r4, lr}
  184              	.LCFI2:
  185              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccWFTjC9.s 			page 14
+ARM GAS  /tmp/ccZ8HXST.s 			page 14
 
 
  186              		.cfi_offset 4, -8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  235              		@ args = 0, pretend = 0, frame = 0
  236              		@ frame_needed = 0, uses_anonymous_args = 0
  237              		@ link register save eliminated.
-ARM GAS  /tmp/ccWFTjC9.s 			page 15
+ARM GAS  /tmp/ccZ8HXST.s 			page 15
 
 
  180:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** /*-----------------------------------------------------------*/
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  286              		.loc 1 236 0
  287 0026 FFF7FEFF 		bl	vTaskSwitchContext
  288              	.LVL12:
-ARM GAS  /tmp/ccWFTjC9.s 			page 16
+ARM GAS  /tmp/ccZ8HXST.s 			page 16
 
 
  237:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  339              	.L22:
  340 0012 C046     		.align	2
  341              	.L21:
-ARM GAS  /tmp/ccWFTjC9.s 			page 17
+ARM GAS  /tmp/ccZ8HXST.s 			page 17
 
 
  342 0014 00000000 		.word	.LANCHOR0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  395              	vPortEnterCritical:
  396              	.LFB7:
  265:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c ****     portDISABLE_INTERRUPTS();
-ARM GAS  /tmp/ccWFTjC9.s 			page 18
+ARM GAS  /tmp/ccZ8HXST.s 			page 18
 
 
  397              		.loc 1 265 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  447              		@ args = 0, pretend = 0, frame = 0
  448              		@ frame_needed = 0, uses_anonymous_args = 0
  449              		@ link register save eliminated.
-ARM GAS  /tmp/ccWFTjC9.s 			page 19
+ARM GAS  /tmp/ccZ8HXST.s 			page 19
 
 
  275:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c ****     uxCriticalNesting--;
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  285:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	__asm volatile(
  500              		.loc 1 285 0
  501              		.cfi_startproc
-ARM GAS  /tmp/ccWFTjC9.s 			page 20
+ARM GAS  /tmp/ccZ8HXST.s 			page 20
 
 
  502              		@ Naked Function: prologue and epilogue provided by programmer.
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  555              	.LFB11:
  320:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c **** 	/* This is a naked function. */
  556              		.loc 1 320 0
-ARM GAS  /tmp/ccWFTjC9.s 			page 21
+ARM GAS  /tmp/ccZ8HXST.s 			page 21
 
 
  557              		.cfi_startproc
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  610              		.section	.text.SysTick_Handler,"ax",%progbits
  611              		.align	1
  612              		.global	SysTick_Handler
-ARM GAS  /tmp/ccWFTjC9.s 			page 22
+ARM GAS  /tmp/ccZ8HXST.s 			page 22
 
 
  613              		.syntax unified
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  665              	uxCriticalNesting:
  666 0000 AAAAAAAA 		.word	-1431655766
  667              		.text
-ARM GAS  /tmp/ccWFTjC9.s 			page 23
+ARM GAS  /tmp/ccZ8HXST.s 			page 23
 
 
  668              	.Letext0:
@@ -1328,54 +1328,54 @@ ARM GAS  /tmp/ccWFTjC9.s 			page 1
  672              		.file 5 "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM0/portmacro.h"
  673              		.file 6 "Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
  674              		.file 7 "Inc/FreeRTOSConfig.h"
-ARM GAS  /tmp/ccWFTjC9.s 			page 24
+ARM GAS  /tmp/ccZ8HXST.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 port.c
-     /tmp/ccWFTjC9.s:16     .text.prvTaskExitError:0000000000000000 $t
-     /tmp/ccWFTjC9.s:22     .text.prvTaskExitError:0000000000000000 prvTaskExitError
-     /tmp/ccWFTjC9.s:70     .text.prvTaskExitError:0000000000000020 $d
-     /tmp/ccWFTjC9.s:75     .text.vPortStartFirstTask:0000000000000000 $t
-     /tmp/ccWFTjC9.s:81     .text.vPortStartFirstTask:0000000000000000 vPortStartFirstTask
-     /tmp/ccWFTjC9.s:108    .text.vPortStartFirstTask:0000000000000030 pxCurrentTCBConst2
-     /tmp/ccWFTjC9.s:108    .text.vPortStartFirstTask:0000000000000030 $d
-     /tmp/ccWFTjC9.s:118    .text.prvSetupTimerInterrupt:0000000000000000 $t
-     /tmp/ccWFTjC9.s:124    .text.prvSetupTimerInterrupt:0000000000000000 prvSetupTimerInterrupt
-     /tmp/ccWFTjC9.s:161    .text.prvSetupTimerInterrupt:0000000000000024 $d
-     /tmp/ccWFTjC9.s:169    .text.pxPortInitialiseStack:0000000000000000 $t
-     /tmp/ccWFTjC9.s:176    .text.pxPortInitialiseStack:0000000000000000 pxPortInitialiseStack
-     /tmp/ccWFTjC9.s:219    .text.pxPortInitialiseStack:000000000000001c $d
-     /tmp/ccWFTjC9.s:224    .text.SVC_Handler:0000000000000000 $t
-     /tmp/ccWFTjC9.s:231    .text.SVC_Handler:0000000000000000 SVC_Handler
-     /tmp/ccWFTjC9.s:245    .text.xPortStartScheduler:0000000000000000 $t
-     /tmp/ccWFTjC9.s:252    .text.xPortStartScheduler:0000000000000000 xPortStartScheduler
-     /tmp/ccWFTjC9.s:299    .text.xPortStartScheduler:0000000000000034 $d
-     /tmp/ccWFTjC9.s:305    .text.vPortEndScheduler:0000000000000000 $t
-     /tmp/ccWFTjC9.s:312    .text.vPortEndScheduler:0000000000000000 vPortEndScheduler
-     /tmp/ccWFTjC9.s:342    .text.vPortEndScheduler:0000000000000014 $d
-     /tmp/ccWFTjC9.s:347    .text.vPortYield:0000000000000000 $t
-     /tmp/ccWFTjC9.s:354    .text.vPortYield:0000000000000000 vPortYield
-     /tmp/ccWFTjC9.s:383    .text.vPortYield:0000000000000014 $d
-     /tmp/ccWFTjC9.s:388    .text.vPortEnterCritical:0000000000000000 $t
-     /tmp/ccWFTjC9.s:395    .text.vPortEnterCritical:0000000000000000 vPortEnterCritical
-     /tmp/ccWFTjC9.s:431    .text.vPortEnterCritical:0000000000000014 $d
-     /tmp/ccWFTjC9.s:436    .text.vPortExitCritical:0000000000000000 $t
-     /tmp/ccWFTjC9.s:443    .text.vPortExitCritical:0000000000000000 vPortExitCritical
-     /tmp/ccWFTjC9.s:486    .text.vPortExitCritical:000000000000001c $d
-     /tmp/ccWFTjC9.s:491    .text.ulSetInterruptMaskFromISR:0000000000000000 $t
-     /tmp/ccWFTjC9.s:498    .text.ulSetInterruptMaskFromISR:0000000000000000 ulSetInterruptMaskFromISR
-     /tmp/ccWFTjC9.s:519    .text.vClearInterruptMaskFromISR:0000000000000000 $t
-     /tmp/ccWFTjC9.s:526    .text.vClearInterruptMaskFromISR:0000000000000000 vClearInterruptMaskFromISR
-     /tmp/ccWFTjC9.s:547    .text.PendSV_Handler:0000000000000000 $t
-     /tmp/ccWFTjC9.s:554    .text.PendSV_Handler:0000000000000000 PendSV_Handler
-     /tmp/ccWFTjC9.s:602    .text.PendSV_Handler:0000000000000040 pxCurrentTCBConst
-     /tmp/ccWFTjC9.s:602    .text.PendSV_Handler:0000000000000040 $d
-     /tmp/ccWFTjC9.s:611    .text.SysTick_Handler:0000000000000000 $t
-     /tmp/ccWFTjC9.s:618    .text.SysTick_Handler:0000000000000000 SysTick_Handler
-     /tmp/ccWFTjC9.s:656    .text.SysTick_Handler:0000000000000020 $d
-     /tmp/ccWFTjC9.s:661    .data.uxCriticalNesting:0000000000000000 $d
-     /tmp/ccWFTjC9.s:665    .data.uxCriticalNesting:0000000000000000 uxCriticalNesting
+     /tmp/ccZ8HXST.s:16     .text.prvTaskExitError:0000000000000000 $t
+     /tmp/ccZ8HXST.s:22     .text.prvTaskExitError:0000000000000000 prvTaskExitError
+     /tmp/ccZ8HXST.s:70     .text.prvTaskExitError:0000000000000020 $d
+     /tmp/ccZ8HXST.s:75     .text.vPortStartFirstTask:0000000000000000 $t
+     /tmp/ccZ8HXST.s:81     .text.vPortStartFirstTask:0000000000000000 vPortStartFirstTask
+     /tmp/ccZ8HXST.s:108    .text.vPortStartFirstTask:0000000000000030 pxCurrentTCBConst2
+     /tmp/ccZ8HXST.s:108    .text.vPortStartFirstTask:0000000000000030 $d
+     /tmp/ccZ8HXST.s:118    .text.prvSetupTimerInterrupt:0000000000000000 $t
+     /tmp/ccZ8HXST.s:124    .text.prvSetupTimerInterrupt:0000000000000000 prvSetupTimerInterrupt
+     /tmp/ccZ8HXST.s:161    .text.prvSetupTimerInterrupt:0000000000000024 $d
+     /tmp/ccZ8HXST.s:169    .text.pxPortInitialiseStack:0000000000000000 $t
+     /tmp/ccZ8HXST.s:176    .text.pxPortInitialiseStack:0000000000000000 pxPortInitialiseStack
+     /tmp/ccZ8HXST.s:219    .text.pxPortInitialiseStack:000000000000001c $d
+     /tmp/ccZ8HXST.s:224    .text.SVC_Handler:0000000000000000 $t
+     /tmp/ccZ8HXST.s:231    .text.SVC_Handler:0000000000000000 SVC_Handler
+     /tmp/ccZ8HXST.s:245    .text.xPortStartScheduler:0000000000000000 $t
+     /tmp/ccZ8HXST.s:252    .text.xPortStartScheduler:0000000000000000 xPortStartScheduler
+     /tmp/ccZ8HXST.s:299    .text.xPortStartScheduler:0000000000000034 $d
+     /tmp/ccZ8HXST.s:305    .text.vPortEndScheduler:0000000000000000 $t
+     /tmp/ccZ8HXST.s:312    .text.vPortEndScheduler:0000000000000000 vPortEndScheduler
+     /tmp/ccZ8HXST.s:342    .text.vPortEndScheduler:0000000000000014 $d
+     /tmp/ccZ8HXST.s:347    .text.vPortYield:0000000000000000 $t
+     /tmp/ccZ8HXST.s:354    .text.vPortYield:0000000000000000 vPortYield
+     /tmp/ccZ8HXST.s:383    .text.vPortYield:0000000000000014 $d
+     /tmp/ccZ8HXST.s:388    .text.vPortEnterCritical:0000000000000000 $t
+     /tmp/ccZ8HXST.s:395    .text.vPortEnterCritical:0000000000000000 vPortEnterCritical
+     /tmp/ccZ8HXST.s:431    .text.vPortEnterCritical:0000000000000014 $d
+     /tmp/ccZ8HXST.s:436    .text.vPortExitCritical:0000000000000000 $t
+     /tmp/ccZ8HXST.s:443    .text.vPortExitCritical:0000000000000000 vPortExitCritical
+     /tmp/ccZ8HXST.s:486    .text.vPortExitCritical:000000000000001c $d
+     /tmp/ccZ8HXST.s:491    .text.ulSetInterruptMaskFromISR:0000000000000000 $t
+     /tmp/ccZ8HXST.s:498    .text.ulSetInterruptMaskFromISR:0000000000000000 ulSetInterruptMaskFromISR
+     /tmp/ccZ8HXST.s:519    .text.vClearInterruptMaskFromISR:0000000000000000 $t
+     /tmp/ccZ8HXST.s:526    .text.vClearInterruptMaskFromISR:0000000000000000 vClearInterruptMaskFromISR
+     /tmp/ccZ8HXST.s:547    .text.PendSV_Handler:0000000000000000 $t
+     /tmp/ccZ8HXST.s:554    .text.PendSV_Handler:0000000000000000 PendSV_Handler
+     /tmp/ccZ8HXST.s:602    .text.PendSV_Handler:0000000000000040 pxCurrentTCBConst
+     /tmp/ccZ8HXST.s:602    .text.PendSV_Handler:0000000000000040 $d
+     /tmp/ccZ8HXST.s:611    .text.SysTick_Handler:0000000000000000 $t
+     /tmp/ccZ8HXST.s:618    .text.SysTick_Handler:0000000000000000 SysTick_Handler
+     /tmp/ccZ8HXST.s:656    .text.SysTick_Handler:0000000000000020 $d
+     /tmp/ccZ8HXST.s:661    .data.uxCriticalNesting:0000000000000000 $d
+     /tmp/ccZ8HXST.s:665    .data.uxCriticalNesting:0000000000000000 uxCriticalNesting
 
 UNDEFINED SYMBOLS
 pxCurrentTCB
