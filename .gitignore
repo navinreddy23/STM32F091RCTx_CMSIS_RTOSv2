@@ -3,4 +3,11 @@ Debug/
 cmake-build/
 .project
 .cproject
-MakeFile
+Makefile
+build*
+rules.ninja
+*.out
+*.map
+*.ninja
+*.ioc
+CMakeCache.txt
