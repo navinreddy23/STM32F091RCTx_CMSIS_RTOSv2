@@ -1,1 +1,6 @@
 /build/
+Debug/
+cmake-build/
+.project
+.cproject
+MakeFile
